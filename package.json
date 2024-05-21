@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node --no-warnings src/index.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.10.6"
+  }
+}

@@ -4,12 +4,12 @@
    "mirrors": [
          {
            "use_webhook_profile": false, 
-           "channel_ids": ["1099579239633780736"],
+           "channel_ids": ["1181529036615340052"],
            "webhook_urls": ["https://discord.com/api/webhooks/1242534649893359637/uhVj8GBFOXkdMfC56tXz3oq__knQNgwxAsl25NqcRkZofwXGorIEagcBZ06uXdP0fg--"]
          },
          {
            "use_webhook_profile": false,
-           "channel_ids": ["844300269777190923"],
+           "channel_ids": ["1181529002821812264"],
            "webhook_urls": ["https://discord.com/api/webhooks/1242534756273487974/MVMo0LXanNuRDdE7dtM5Zmxfa6NIwqasc0rUJEvlkAGTHIozEuG19DPNhhe0P9lIiau0"]
          },
          {

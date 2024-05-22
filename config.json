@@ -456,6 +456,56 @@
            "use_webhook_profile": false,
            "channel_ids": ["1207928635298947102"],
            "webhook_urls": ["https://discord.com/api/webhooks/1242663123782078504/fN1OEOquj31GQOXbcNKjn3bPrY9d2rVltIOqSJ6pR3OLMuXgbUtDEthSm-Zkf7zhkXbK"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144035250322800680"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242663416448024627/lkVmY6Fos80aUxTn_xJiL0kJrQU1lzkaH3jrwgEq7fatryynscv9oZtSs0yDHgLjaATv"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144035426915598477"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242663569401839677/1nrYrM9gB73e3j137nPcL7aAw8yjFEnQdXCMenPDIIGGu0GhPfjarzdkeMPA_nguu3W0"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144035667651870740"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242663777187397652/jVTwQt3Dmsz5wYD_z-s5_C_HqynfR7_b6SaFOSvKgevF9OIcsQWB0hxx0Q5S2THYxEL3"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144036298873655366"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242663932171128912/HxPAjTlx1XYX8OBMxU8yHqhb6nAfsgoO3XPAzQYQd5pcbdl5jxoOPXJVhnUk5Bl8r9ou"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144036809148477442"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242664154523897887/uJU8t6S24W0qGLsHthxk9R3YcAaivtfi1ejK4O-TzV0bwCHue4o5FHTvW-K042xUntHY"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144037073293152276"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242664299009278005/8ZYnBNxZyEtKWl5TX4gyIM6D4UEHe08Lu17b3mi8EYlXLzSyrlCGR5RudH91QEnbQu-J"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144035818789408849"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242664482266939503/LH9377HeNQV9dkAn_NgFzx1IIQ1TN4iQogDef873xMqBsf0xQycVdH1mpObYzZv2usEz"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144036427777179768"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242664745081765999/rtWbwvHdmd8dlLO1S-_rQx1iio2euBKdT1xj48navZe11LDXCgfcO03uU6kScGMEy2vM"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1144037159620329542"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242664885112799232/ET5LlCmXbvZMm4Ir1-OLB-rlog-3GtTRA9LV5_ZedVP3dvEL8oBMP5NYzVYY5QH-c0_J"]
+         },
+         { 
+           "use_webhook_profile": false,
+           "channel_ids": ["1184559246784876675"],
+           "webhook_urls": ["https://discord.com/api/webhooks/1242665039576436837/feCE4HcgLHCRDtjUDd3CDGufk9A513NMH4H_WcQf0BSguF_Mf5cNe4HlwL0oi4cpbOPZ"]
          }
       
       ], 

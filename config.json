@@ -478,7 +478,7 @@
            "webhook_urls": ["https://discord.com/api/webhooks/1242663932171128912/HxPAjTlx1XYX8OBMxU8yHqhb6nAfsgoO3XPAzQYQd5pcbdl5jxoOPXJVhnUk5Bl8r9ou"]
          },
          { 
-           "use_webhook_profile": false,
+           "use_webhook_profile": true,
            "channel_ids": ["1144036809148477442"],
            "webhook_urls": ["https://discord.com/api/webhooks/1242664154523897887/uJU8t6S24W0qGLsHthxk9R3YcAaivtfi1ejK4O-TzV0bwCHue4o5FHTvW-K042xUntHY"]
          },

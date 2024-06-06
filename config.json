@@ -705,6 +705,120 @@
 			"channel_id": "1194968246428909579",
 			"webhook_url": "https://discord.com/api/webhooks/1245536182453145643/iuh_k_4Yr0VyjSyCq62IsBdAMjoWF99V3HuvPs3tjagUVKXA5B1fSFD6cg4qrg-dCwbH"
 		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m stream-anns",
+			"channel_id": "1170015878620926073",
+			"webhook_url": "https://discord.com/api/webhooks/1182468370931646465/di8iB7Hjz4yjUA334wuNvQK6ofUIOIFOSKj6Hhx96wGTs-YT5U3v0q-0ZwDcaMC9r3qp"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m spot-futures",
+			"channel_id": "1170015913316208772",
+			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m spot-futures-updates",
+			"channel_id": "1194239853659963433",
+			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m trade-questions",
+			"channel_id": "1170015955494117516",
+			"webhook_url": "https://discord.com/api/webhooks/1242809455687630858/1_R10uX-CbI0ehuUtq6MEvEze2DPLDYZ4xKfc_EZatrPMxig3nZ3byRGAR8XC1xm8DQW"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m crypto-ta",
+			"channel_id": "1170016497553387640",
+			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m other-ta",
+			"channel_id": "1194238679946891335",
+			"webhook_url": "https://discord.com/api/webhooks/1242809568732512387/nRg1jhYpXDRyPvJQpXVAsEk42lo0HbRN5A8x9m6EEUQ_pQScPfgNsZuXC2ysfSpKTcKs"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m daily-updates",
+			"channel_id": "1194238789070098523",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m degen-play",
+			"channel_id": "1194239693643067412",
+			"webhook_url": "https://discord.com/api/webhooks/1242809765449437254/ZbdYYrw43vcEeHVwcI1Xd_C0ZLbKUHS6M0J0IYEbzec0P-7JC-2xpyci-PcT0iSnxjcJ"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds daan-ltf",
+			"channel_id": "1005134500419870771",
+			"webhook_url": "https://discord.com/api/webhooks/1242323833826836510/ktOm-GBZp__iSCfsGwNmYgQtkFKEFkFRZJ-V7To6UuvYESdli9W5j1wTO1OvW4xDIE0J"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds daan-htf",
+			"channel_id": "1005134473412759682",
+			"webhook_url": "https://discord.com/api/webhooks/1242323987627773972/kMEBlXKKUzgqGaiMK4cWkOFiEtJp_RfxALir8TJWGsX55LN9gRWan-rFX0VDek2PKs3j"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds daan-setups",
+			"channel_id": "827489898256269312",
+			"webhook_url": "https://discord.com/api/webhooks/1242324158889726044/8ARufJFOsYW0N_zJwzwgvG0aRI9qq4dzzmDI7RVFhihhy_ODD2JRLHZfkzP6EVo94-5X"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds jelle-ltf",
+			"channel_id": "827489898256269312",
+			"webhook_url": "https://discord.com/api/webhooks/1242324313332252713/MyC5ZIf-nI6NwC7WC8I3JfZHV3WJvj9sObXqqgU7mduCMyeU4S6sho64D3PgpxH6OQp-"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds jelle-htf",
+			"channel_id": "827489898256269312",
+			"webhook_url": "https://discord.com/api/webhooks/1242324467254820875/o3vd0U13mq_XdGq85IgDqYEeagESqQtqFbFWS0iRX2U5eQ4CWktmEmFlOllxSgmYp8gJ"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "hounds streams",
+			"channel_id": "1022838966812147772",
+			"webhook_url": "https://discord.com/api/webhooks/1242324837196763207/i_E78ms0FZ5yYoorHN26AiBEIsRbdnnvN48IST6SJJgCL_hYyhV60HjZ3vHfVIVHyTJi"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "credible alt-analysis",
+			"channel_id": "686268991198724138",
+			"webhook_url": "https://discord.com/api/webhooks/1242571266313949196/j-RZIabzxjDG30A5U0lYXX_lc8BX7_UUZC2XV9ZjUfyHnn76rHoVKQv6erVuU_qbAlK0"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "credible altcoin-hunt",
+			"channel_id": "1174276751371812884",
+			"webhook_url": "https://discord.com/api/webhooks/1242571460862541914/HiB1j-jPmFbmV42oCtS5Ou2L5Lfr1wUD2N1HwGJDliMUlbKKxwlf6XfADtFboHLhJe5P"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "credible btc-analysis",
+			"channel_id": "686268766828757015",
+			"webhook_url": "https://discord.com/api/webhooks/1242571564319506494/3HBEId2i-T4mqnjR7cK0ThGHc0hOpARgzPPm0islxE70065mQgDzrnrUIlgug17c8f0i"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "credible eth-analysis",
+			"channel_id": "686268790543351834",
+			"webhook_url": "https://discord.com/api/webhooks/1242571651221032990/WP9JzhzRrxPWaZkgu0dki8Xdv4flX3suF5SEH77-HYCIZX7gxhPv7UbKu8masthn-Gvs"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "credible ask-an-admin",
+			"channel_id": "1103270682214813767",
+			"webhook_url": "https://discord.com/api/webhooks/1242571769550999612/4LlmRIZxAV23TCxY9yvwBm-07vBB7-CPIddmnqyVSjzuD-6ZgYBHgjcoJI57PuLdp8gw"
+		},
 	
 	
 	],

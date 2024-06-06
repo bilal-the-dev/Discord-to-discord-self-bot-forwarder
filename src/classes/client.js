@@ -37,7 +37,6 @@ module.exports = class MirrorClient extends Client {
 			mirrors[channel_id] = webhook;
 		}
 
-		// console.log(mirrors);
 		return mirrors;
 	}
 

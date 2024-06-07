@@ -48,49 +48,49 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma-journal",
-			"channel_id": "1022560769436549210",
+			"channel_id": "873544440281706516",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma-journal-commentary",
-			"channel_id": "1156648309537124382",
+			"channel_id": "1029772643605434448",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma daily-market-thoughts",
-			"channel_id": "1108451568380022804",
+			"channel_id": "730175164687581205",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma education",
-			"channel_id": "1022561279103205427",
+			"channel_id": "730175234883321887",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma trade-ideas",
-			"channel_id": "1108451678623125554",
+			"channel_id": "730175214121648239",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs market-thoughts",
-			"channel_id": "1092422998264397935",
+			"channel_id": "844300269777190923",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs 2024-spot-portfolio",
-			"channel_id": "1199352172748488775",
+			"channel_id": "847538634412261417",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbsthread trades-2024",
-			"channel_id": "1199352172748488775",
+			"channel_id": "1244258550952366180",
 			"webhook_url": "https://discord.com/api/webhooks/1245024270573240442/NbADgpCml0R3bcrZNvF9ZqG_XgT2k6EAmsCi_T7GM226CaG98xOQVGjOtbgXAc_Vx2Qa"
 		},
 		{
@@ -102,13 +102,19 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs memecoin-mania",
-			"channel_id": "1097562133027369132",
+			"channel_id": "1099579239633780736",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs education",
-			"channel_id": "1050457172884078664",
+			"channel_id": "844300206610841601",
+			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "cbs daily-video-update",
+			"channel_id": "844300168421179438",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{

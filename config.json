@@ -90,7 +90,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbsthread trades-2024",
-			"channel_id": "1244258550952366180",
+			"channel_id": "1199352172748488775",
 			"webhook_url": "https://discord.com/api/webhooks/1245024270573240442/NbADgpCml0R3bcrZNvF9ZqG_XgT2k6EAmsCi_T7GM226CaG98xOQVGjOtbgXAc_Vx2Qa"
 		},
 		{
@@ -102,13 +102,13 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs memecoin-mania",
-			"channel_id": "1099579239633780736",
+			"channel_id": "1097562133027369132",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs education",
-			"channel_id": "844300206610841601",
+			"channel_id": "1050457172884078664",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{

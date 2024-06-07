@@ -690,13 +690,13 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "hbj-10k-100k-spot",
-			"channel_id": "1156960749869092864",
+			"channel_id": "1144050822578188380",
 			"webhook_url": "https://discord.com/api/webhooks/1242562651427438603/ghsu0gSN9ybUP1zVLiNZj_l84MZ35R8MnOtocqNWzFA7iz03NthTi0tO8gN0UgjpvISg"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "impulse-saga",
-			"channel_id": "1185932502523711508",
+			"channel_id": "1195427079219589270",
 			"webhook_url": "https://discord.com/api/webhooks/1245536613057040394/dCJOMaYNd_owFykSpxqJrvgdPBhesOowc_Kqk1Tw8ogVRbcF2bWJ28DE4SIqZc7Rpdwv"
 		},
 		{

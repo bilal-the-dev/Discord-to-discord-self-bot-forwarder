@@ -7,31 +7,31 @@
 			"use_webhook_profile": true,
 			"_comment": "BH market-updates",
 			"channel_id": "1181529036615340052",
-			"webhook_url": "https://discord.com/api/webhooks/1247961505635373078/8CBcMqSNpBr5QGLLykelVEbkCErLNYfGTooFor3GGhq_7elzESoEa1fgnXunitOnIn19"
+			"webhook_url": "https://discord.com/api/webhooks/1178000759749611580/Xp9WeagTVKHkMSOmURwPd6ulyuAjDH1kHtcsNpkbOoCsCRUKPI2MLNXcygrmRtCgPf_e"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "BH 1k-100k-challenge",
-			"channel_id": "942489550775783475",
+			"channel_id": "1181529002821812264",
 			"webhook_url": "https://discord.com/api/webhooks/1178912490453733477/mO1HZCMfKDWeeDKr8inv5nQZ_sFJ-Mhs-5GBUtdEs7NXmqo52LKUwb-FUyGGfW-eA0qd"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "BH ltf-trades",
-			"channel_id": "942489550775783475",
-			"webhook_url": "https://discord.com/api/webhooks/1247961505635373078/8CBcMqSNpBr5QGLLykelVEbkCErLNYfGTooFor3GGhq_7elzESoEa1fgnXunitOnIn19"
+			"channel_id": "1181529065321136138",
+			"webhook_url": "https://discord.com/api/webhooks/1178912355149680721/d7HChEApAESU8uQfKhnnuDQWOVsIVJNnvYl52qiqq7hrhxkTqNFtIpNwudrUp9QNUO8A"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "htf-trades",
-			"channel_id": "942489550775783475",
-			"webhook_url": "https://discord.com/api/webhooks/1247961505635373078/8CBcMqSNpBr5QGLLykelVEbkCErLNYfGTooFor3GGhq_7elzESoEa1fgnXunitOnIn19"
+			"channel_id": "1181529091950772245",
+			"webhook_url": "https://discord.com/api/webhooks/1178912440797368320/kOsfpr_RK3DInJlIk07As3sxT8HyeKQZ9wMvXcIRN0WzNxqFLTbW8gMPeJN0bO5XsBKC"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "haven streams",
 			"channel_id": "972844440777539604",
-			"webhook_url": "https://discord.com/api/webhooks/1247961505635373078/8CBcMqSNpBr5QGLLykelVEbkCErLNYfGTooFor3GGhq_7elzESoEa1fgnXunitOnIn19"
+			"webhook_url": "https://discord.com/api/webhooks/1181006096828207114/CfthQ9fISimJDhRH6AkLB5hxaubvk3l2fEy5rYlHNw4LTDJ06ACpIwdR1h7gOSZ-PEBx"
 		},
 		{
 			"use_webhook_profile": false,

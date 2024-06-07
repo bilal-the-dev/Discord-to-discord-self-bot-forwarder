@@ -48,43 +48,43 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma-journal",
-			"channel_id": "873544440281706516",
+			"channel_id": "1022560769436549210",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma-journal-commentary",
-			"channel_id": "1029772643605434448",
+			"channel_id": "1156648309537124382",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma daily-market-thoughts",
-			"channel_id": "730175164687581205",
+			"channel_id": "1108451568380022804",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma education",
-			"channel_id": "730175234883321887",
+			"channel_id": "1022561279103205427",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "loma trade-ideas",
-			"channel_id": "730175214121648239",
+			"channel_id": "1108451678623125554",
 			"webhook_url": "https://discord.com/api/webhooks/1242919007443746866/owbc5Ffsz7W0b0Ec43uu8LMzdELhx00dppHMMAueOIb-tBilEjspAXA1qj0QGOB0kl9p"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs market-thoughts",
-			"channel_id": "844300269777190923",
+			"channel_id": "1092422998264397935",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "cbs 2024-spot-portfolio",
-			"channel_id": "847538634412261417",
+			"channel_id": "1199352172748488775",
 			"webhook_url": "https://discord.com/api/webhooks/1242920044791595008/YzfZG2-2QbaFhO8CFEh-PbW63xRN-ogfYMMdyxqgaz7f7N1c3vwjZRCw7QuAhP3hnzhF"
 		},
 		{
@@ -113,56 +113,56 @@
 		},
 		{
 			"use_webhook_profile": true,
-			"_comment": "mayne crypto-charts",
-			"channel_id": "1097082463672615033",
+			"_comment": "mayne trade-ideas",
+			"channel_id": "1108449555546112101",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne market-thoughts",
-			"channel_id": "1097082506370633738",
+			"channel_id": "1073945912520478760",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne crypto-charts",
-			"channel_id": "1097082572258947082",
+			"channel_id": "1091769903452786778",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne education",
-			"channel_id": "1097082617528078406",
+			"channel_id": "1073946461261275197",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub trade-reviews",
-			"channel_id": "1076942822739030096",
+			"channel_id": "1172670889012232252",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub charts",
-			"channel_id": "730175447127556166",
+			"channel_id": "1022562416422289439",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub trade-ideas",
-			"channel_id": "1072973163828351149",
+			"channel_id": "1073946551648530502",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub education",
-			"channel_id": "730175463586136144",
+			"channel_id": "1022562461209084006",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "krillin swing-spot",
-			"channel_id": "827486962704842752",
+			"channel_id": "1073946320433315921",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
 		},
 		{
@@ -180,7 +180,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "krillin macro-plan",
-			"channel_id": "1022946079349678151",
+			"channel_id": "1091770071631794297",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
 		},
 		{
@@ -192,7 +192,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "krillin charts",
-			"channel_id": "730174948794171393",
+			"channel_id": "1091769683616731156",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
 		},
 		{
@@ -204,25 +204,25 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "pierre trade-ideas",
-			"channel_id": "730175316148092988",
+			"channel_id": "1022561761448185906",
 			"webhook_url": "https://discord.com/api/webhooks/1242922653937963008/lpcuebOReKhAJko5UQhxrS_nJQZ2XF2j_5iV5EJhbpRTINftfuRyKTeYtJm_Xsp7tNaJ"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "pierre market-analysis",
-			"channel_id": "761321210910343168",
+			"channel_id": "1022561699645116476",
 			"webhook_url": "https://discord.com/api/webhooks/1242922653937963008/lpcuebOReKhAJko5UQhxrS_nJQZ2XF2j_5iV5EJhbpRTINftfuRyKTeYtJm_Xsp7tNaJ"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "pierre chart-requests",
-			"channel_id": "994565272654589952",
+			"channel_id": "1073945796728336394",
 			"webhook_url": "https://discord.com/api/webhooks/1242922653937963008/lpcuebOReKhAJko5UQhxrS_nJQZ2XF2j_5iV5EJhbpRTINftfuRyKTeYtJm_Xsp7tNaJ"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "pierre education",
-			"channel_id": "730175352151867402",
+			"channel_id": "1108452459707379824",
 			"webhook_url": "https://discord.com/api/webhooks/1242922653937963008/lpcuebOReKhAJko5UQhxrS_nJQZ2XF2j_5iV5EJhbpRTINftfuRyKTeYtJm_Xsp7tNaJ"
 		},
 		{

@@ -560,73 +560,73 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-alerts",
-			"channel_id": "1064657350406967407",
+			"channel_id": "1144032924551876638",
 			"webhook_url": "https://discord.com/api/webhooks/1224775128228040825/gryX0IdiCPwzvCOHWSu6WwOLM1kj96idkpuUa2bDiP6I2JgcLKoVBW99vGG1pVCsAcN-"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg trades",
-			"channel_id": "781223782227902498",
+			"channel_id": "1144033077379743964",
 			"webhook_url": "https://discord.com/api/webhooks/1224775676541014016/ZpdJ8ywnqvpLXX_Movb7XGGUjBKl-BgXyCQv_rMCm5LgwR4kaZtAGJs9j-krjhbdpxTC"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg long-term-hold",
-			"channel_id": "1156959749355622430",
+			"channel_id": "1169365992137310319",
 			"webhook_url": "https://discord.com/api/webhooks/1224775825803579463/x3rFal5ZIzNO2qzX0aN4fjh3H0Q56PEWR-RvdR3xPfEz3nrPrb1J5vRT6HkHXgRwRDMh"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-futures",
-			"channel_id": "1029826739880329217",
+			"channel_id": "1144032969980395652",
 			"webhook_url": "https://discord.com/api/webhooks/1224775292346831058/_YKkytORLPLltw5WoIC-ubPsp2ffP6KnJdLMMSmhDQwAvn-HHa70xNmpFNKz93UlxzJ4"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-spot",
-			"channel_id": "1156959749355622430",
+			"channel_id": "1144033723109621796",
 			"webhook_url": "https://discord.com/api/webhooks/1224774943791775775/k5YaT7kTP4kz8pwtARMZVRt3i9fgcojARnKjrM38gD8k0LnP4V5iQit8Lq9imyIpzUYn"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg johnny",
-			"channel_id": "781223812800839681",
+			"channel_id": "1144035250322800680",
 			"webhook_url": "https://discord.com/api/webhooks/1181444015372124291/mVY9TvaVK5FZBtQxkZ7jMHxDv61kgCwSqSUwfu5bqQ6NU3A8BvrNwu4f8LlE-EyKjxES"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg eli",
-			"channel_id": "781223900292972574",
+			"channel_id": "1144035426915598477",
 			"webhook_url": "https://discord.com/api/webhooks/1181444079695958076/9UWtMRUCavKnOEj5peiGic9i6nVDCbHpNzyRTka1KGJcHtGouFsLSFX4ncGW5WamETjJ"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg woods",
-			"channel_id": "860570771729940480",
+			"channel_id": "1144036298873655366",
 			"webhook_url": "https://discord.com/api/webhooks/1181444145559117826/5E2A9GLiaxkncr8DglkINTIwe5vzOgZhpx3pWbqBivcJMnJtAOK6DTxgLqg8oMTxWDXZ"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg hbj",
-			"channel_id": "1012060877899444254",
+			"channel_id": "1144036809148477442",
 			"webhook_url": "https://discord.com/api/webhooks/1221119929449713745/gV9JrnMx4AJQcO6UQ8lzN884TYXmkBQ9dwDxbPEj38vf2j1P_H6FDXjfPy9LIjBlJIPG"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg michele",
-			"channel_id": "850460288725155880",
+			"channel_id": "1144035818789408849",
 			"webhook_url": "https://discord.com/api/webhooks/1221120294794690730/Z3OXadD_lJZwOXz_jU9Nawahv4ZNTqUel5d57ukg8uvKhEIgQS54j-4ns0LezRumFB5f"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg rezeh",
-			"channel_id": "903984553083944970",
+			"channel_id": "1144035667651870740",
 			"webhook_url": "https://discord.com/api/webhooks/1221119733047492680/TGqpr2EAG_0wzYTzNdjkEeH1UQHJrwADVBwha8vonKf-9oReuJ5VVtOQ60NbjQRt7UaH"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg rego",
-			"channel_id": "781223829770207243",
+			"channel_id": "1144036427777179768",
 			"webhook_url": "https://discord.com/api/webhooks/1221120486029918300/sbfvBUL1nOndaEcAqvfFY7it-Nt0wnA7UFhCbT64YiZ-BWB38PM-R4mCFylhTETNiRk-"
 		},
 		{
@@ -638,13 +638,13 @@
 		{
 			"use_webhook_profile": false,
 			"_comment": "wwg tareeq",
-			"channel_id": "1046879470658793553",
+			"channel_id": "1144037073293152276",
 			"webhook_url": "https://discord.com/api/webhooks/1221120162418131045/G_2P6UM1sqhmFAcppAUyr_BwZs4ldR4pkLC1f0HpacknnSrod-p9SKpMhGuGPyPyaPNn"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg cyart",
-			"channel_id": "1163366144145633330",
+			"channel_id": "1162102387431985304",
 			"webhook_url": "https://discord.com/api/webhooks/1245535535305457745/QtezkeQSZ-YT7c14pqbwVRloBI7-vLI3Qkb3iQaIEzAMC1c-5ZZAJnl5U695JZCjc_NX"
 		},
 		{
@@ -656,37 +656,37 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg bhezzy",
-			"channel_id": "1192017697056235570",
+			"channel_id": "1162102006098440283",
 			"webhook_url": "https://discord.com/api/webhooks/1245535758815854613/wD2Ft7MK0UteOkg4jCRwcRjcVixMKM4S8v5f6vm3Gi_HJ3vL7pTtDPHa6fg8fftWHXKv"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg pocky",
-			"channel_id": "1105530693485871154",
+			"channel_id": "1144037632419049492",
 			"webhook_url": "https://discord.com/api/webhooks/1245535872124719114/8p_P2R_2TsOj5yQQKJU0sgkljHyI6AYW_ZVUIz9-dyN6RCYWyI11Czv0vY0bxXFkPV09"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "wwg degen",
-			"channel_id": "1194243794175008788",
+			"channel_id": "1144032561467760751",
 			"webhook_url": "https://discord.com/api/webhooks/1220960344764059719/c9Xe-o1FhkEmueukkUMbtDAVOBmc1eRZAqQmUKTo_0phvygJsavL6M_AKv1wG9ytkyqn"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg stream-video",
-			"channel_id": "1156962544280408075",
+			"channel_id": "1162100878862450778",
 			"webhook_url": "https://discord.com/api/webhooks/1242968748898652201/H9JkAiMuzxY02PKkzRH9a77SR9gIuKvNUCU9rmQ-Fl1VKGzfm2XNYhKjUELLCEoFFRK5"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "john-1k-10k",
-			"channel_id": "994566282408116244",
+			"channel_id": "1144050605829128306",
 			"webhook_url": "https://discord.com/api/webhooks/1181444200399654932/mT9K3G0xTa6dcg1k_cfjVGxwjcTaJMbl8JkLntjtPFSwb4CaeyO2qGX9cvdnKayTr3iA"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "eli-1k-100k",
-			"channel_id": "931945159820738600",
+			"channel_id": "1144049936049119332",
 			"webhook_url": "https://discord.com/api/webhooks/1181444251570143232/mxkJ5NjTTAa5frYCZhba7UOGe3NMiVIFYZ3_zmz9Cgb0ZiDuJy3MTl8r06MoyHI48YMw"
 		},
 		{

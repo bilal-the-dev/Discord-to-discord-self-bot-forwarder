@@ -591,31 +591,31 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-alerts",
-			"channel_id": "1144032924551876638",
+			"channel_id": "999405960764346488",
 			"webhook_url": "https://discord.com/api/webhooks/1224775128228040825/gryX0IdiCPwzvCOHWSu6WwOLM1kj96idkpuUa2bDiP6I2JgcLKoVBW99vGG1pVCsAcN-"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg trades",
-			"channel_id": "1144033077379743964",
+			"channel_id": "942489550775783475",
 			"webhook_url": "https://discord.com/api/webhooks/1224775676541014016/ZpdJ8ywnqvpLXX_Movb7XGGUjBKl-BgXyCQv_rMCm5LgwR4kaZtAGJs9j-krjhbdpxTC"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg long-term-hold",
-			"channel_id": "1169365992137310319",
+			"channel_id": "1149772038043607230",
 			"webhook_url": "https://discord.com/api/webhooks/1224775825803579463/x3rFal5ZIzNO2qzX0aN4fjh3H0Q56PEWR-RvdR3xPfEz3nrPrb1J5vRT6HkHXgRwRDMh"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-futures",
-			"channel_id": "1144032969980395652",
+			"channel_id": "1029826739880329217",
 			"webhook_url": "https://discord.com/api/webhooks/1224775292346831058/_YKkytORLPLltw5WoIC-ubPsp2ffP6KnJdLMMSmhDQwAvn-HHa70xNmpFNKz93UlxzJ4"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg active-spot",
-			"channel_id": "1144033723109621796",
+			"channel_id": "1029826599098519602",
 			"webhook_url": "https://discord.com/api/webhooks/1224774943791775775/k5YaT7kTP4kz8pwtARMZVRt3i9fgcojARnKjrM38gD8k0LnP4V5iQit8Lq9imyIpzUYn"
 		},
 		{

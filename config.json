@@ -398,43 +398,43 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex market-thoughts",
-			"channel_id": "1191374954806120468",
+			"channel_id": "1192971942278475896",
 			"webhook_url": "https://discord.com/api/webhooks/1223761247103877192/Kl0T9AXZD7fjTbipyRq_xdOSYRQ313gkqVsT2eP1dnRxnlEra_ISqIb29WFw0Cd9oVho"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex crypto-trades",
-			"channel_id": "1191374893200191579",
+			"channel_id": "1192972109895446559",
 			"webhook_url": "https://discord.com/api/webhooks/1223761083085623306/89GGEqFGPF0F3Tx6Vboez_ARLfBSDbjPOOoxm00BNFwzShPeSZvhdljWE2HCJYrQx4yb"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex 2k-10k-challenge",
-			"channel_id": "1191375000251420722",
+			"channel_id": "1192972169555214487",
 			"webhook_url": "https://discord.com/api/webhooks/1223761389961744424/4XXivfMz6uCSHrGlwdEyLxyHMwabtWg8bftjS_nFEHeWgON8uFQq6nTPe1Vt62f4F9nu"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex stream-recordings",
-			"channel_id": "1191375133848375316",
+			"channel_id": "1192972370227503285",
 			"webhook_url": "https://discord.com/api/webhooks/1243025778594152512/HkhtunL7g1raQulVfUgwZIAAJtuXTsza6Ob81FBhvTE7WTPfvXgKiNkVWarK9ohYUFpN"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex notebook",
-			"channel_id": "1224621060079484938",
+			"channel_id": "1227023332210118788",
 			"webhook_url": "https://discord.com/api/webhooks/1243025471587745852/58fXuAR2IKx5RP46B2sNaH8qVkVrostVqVVjyxupte9Tm9qKYFCGmtjnHMhrUxaQZYhR"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "dietaflex trade-tracker",
-			"channel_id": "1213063286086439002",
+			"channel_id": "1227025449977249842",
 			"webhook_url": "https://discord.com/api/webhooks/1223760951501783100/JA6qpZuVNPCrlMKQBxyIm-5DFK-20AVDc41ltSG3CyD77Mw25Is0qR_PdYs6KUTIP_AU"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "dietaflex questions",
-			"channel_id": "1213063505222176768",
+			"channel_id": "1192972491266719744",
 			"webhook_url": "https://discord.com/api/webhooks/1243025973750796379/RYHeLRoWkKo8_aHCR0imdIg0e7b390ZyJ0QhcDLscjeCcbPreJu1MJvt2bf-jjTN8rWq"
 		},
 		{

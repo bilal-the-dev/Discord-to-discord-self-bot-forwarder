@@ -235,8 +235,32 @@
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "utopia education",
-			"channel_id": "1170008667702177852",
+			"_comment": "utopia education /astekz",
+			"channel_id": "1192969345341591663",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /jdrip",
+			"channel_id": "1192970642212016151",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /nacho",
+			"channel_id": "1227024685418549248",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /patta",
+			"channel_id": "1215913267281661992",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /flex",
+			"channel_id": "1192972433033019482",
 			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
 		},
 		{

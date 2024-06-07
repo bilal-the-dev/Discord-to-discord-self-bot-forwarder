@@ -55,7 +55,8 @@ module.exports = class MirrorClient extends Client {
 			const webhook = this.mirrors[message.channel.id];
 			await verifyMessage(webhook, message);
 			await replaceMentions(message);
-			// replaceSpoilers(message);
+
+			if (config.IS_SPOILER_ON) replaceSpoilers(message);
 
 			addReplyIfExist(message);
 

@@ -2,6 +2,7 @@
 	"token": "",
 	"status": "offline",
 	"SOURCE_GUILD_ID": "1247958702628278332",
+	"IS_SPOILER_ON": true,
 	"mirrors": [
 		{
 			"use_webhook_profile": false,

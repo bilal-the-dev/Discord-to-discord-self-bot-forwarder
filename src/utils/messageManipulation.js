@@ -20,13 +20,20 @@ const replaceMentions = async (message) => {
 
 	const guild = client.guilds.cache.get(SOURCE_GUILD_ID);
 
+	console.log(guild.name);
+	console.log(message.content);
+
 	roles.forEach((element) => {
 		const role = guild.roles.cache.find(
 			(r) => r.name.toLowerCase() === element.name.toLowerCase()
 		);
 
+		console.log(role.name);
+
 		if (role) message.content = message.content.replaceAll(element.id, role.id);
 	});
+
+	console.log(message.content);
 };
 
 const replaceFilterWords = (content) =>

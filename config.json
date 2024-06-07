@@ -235,8 +235,32 @@
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "utopia education",
-			"channel_id": "1170008667702177852",
+			"_comment": "utopia education /astekz",
+			"channel_id": "1192969345341591663",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /jdrip",
+			"channel_id": "1192970642212016151",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /nacho",
+			"channel_id": "1227024685418549248",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /patta",
+			"channel_id": "1215913267281661992",
+			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "utopia education /flex",
+			"channel_id": "1192972433033019482",
 			"webhook_url": "https://discord.com/api/webhooks/1247730604775047252/HpLlvI-kezhp_a4GnENiGoyOomVlJR_pPbunmMYDIVLHiV0Dyu5Pk1OQUHRTXLhnRz3h"
 		},
 		{
@@ -248,7 +272,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "astekz notebook",
-			"channel_id": "1191723956965736508",
+			"channel_id": "1192969725412646972",
 			"webhook_url": "https://discord.com/api/webhooks/1223759435202039808/e38KfgJrE__0i0RpZhvU2DnZm6B-CAwBj9jzaEAsTi28wy6PtpWRqalY6ngbJa6UZ6Bx"
 		},
 		{
@@ -326,7 +350,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "jdrip daily-notebook-videos",
-			"channel_id": "1182961035183927376",
+			"channel_id": "1208205118734860379",
 			"webhook_url": "https://discord.com/api/webhooks/1247403742010015864/XR9eQm3cXmmSbw5aFMhkTfwfOQ0dABAd_O6AlYQorDeF7Z_Z-uJOdfeYG8uzcEdd5xsH"
 		},
 		{
@@ -369,6 +393,7 @@
 			"use_webhook_profile": true,
 			"_comment": "pat crypto-trades",
 			"channel_id": "1215912801135104170",
+
 			"webhook_url": "https://discord.com/api/webhooks/1243020389991579732/XXw1umMc2iDy-2OkzIQtGoO80Kmz6pgfF0v_IP_mvdbyQYEnY9OUAD4RxmmnH9R9gCjd"
 		},
 		{
@@ -388,6 +413,12 @@
 			"_comment": "pat questions",
 			"channel_id": "1215913383203835935",
 			"webhook_url": "https://discord.com/api/webhooks/1243020849905401988/1jhbKhs2dbBuUAdid3lJqzUlP4YQO6HAufo_UwcrJYHIGe6pIeHH4qIhnq0qVPIji3LY"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "pat stream-recordings",
+			"channel_id": "1215913172465090590",
+			"webhook_url": "https://discord.com/api/webhooks/1243020621546389524/ajXGuuo_016_fWdJrAua3FNCWv9mDKr5POM3nrLeu0LgXL7uQPQShbvKoaX2GnDSfCtP"
 		},
 		{
 			"use_webhook_profile": true,
@@ -662,7 +693,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "wwg pocky",
-			"channel_id": "1105530693485871154",
+			"channel_id": "1144037632419049492",
 			"webhook_url": "https://discord.com/api/webhooks/1245535872124719114/8p_P2R_2TsOj5yQQKJU0sgkljHyI6AYW_ZVUIz9-dyN6RCYWyI11Czv0vY0bxXFkPV09"
 		},
 		{
@@ -710,49 +741,85 @@
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m stream-anns",
-			"channel_id": "1170015878620926073",
+			"channel_id": "1153017309758242968",
 			"webhook_url": "https://discord.com/api/webhooks/1182468370931646465/di8iB7Hjz4yjUA334wuNvQK6ofUIOIFOSKj6Hhx96wGTs-YT5U3v0q-0ZwDcaMC9r3qp"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m spot-futures",
-			"channel_id": "1170015913316208772",
+			"channel_id": "1152297469330337923",
 			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m spot-futures-updates",
-			"channel_id": "1194239853659963433",
+			"channel_id": "1152297909853884587",
 			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m trade-questions",
-			"channel_id": "1170015955494117516",
+			"channel_id": "1152298076736856084",
 			"webhook_url": "https://discord.com/api/webhooks/1242809455687630858/1_R10uX-CbI0ehuUtq6MEvEze2DPLDYZ4xKfc_EZatrPMxig3nZ3byRGAR8XC1xm8DQW"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m crypto-ta",
-			"channel_id": "1170016497553387640",
+			"_comment": "21m bitcoin-ta",
+			"channel_id": "1152298557357961216",
 			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m other-ta",
-			"channel_id": "1194238679946891335",
+			"_comment": "21m eth-ta",
+			"channel_id": "1152298702124355724",
+			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m alt-ta",
+			"channel_id": "1152298792788435045",
+			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m index-ta",
+			"channel_id": "1152298934258106478",
 			"webhook_url": "https://discord.com/api/webhooks/1242809568732512387/nRg1jhYpXDRyPvJQpXVAsEk42lo0HbRN5A8x9m6EEUQ_pQScPfgNsZuXC2ysfSpKTcKs"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m daily-updates",
-			"channel_id": "1194238789070098523",
+			"_comment": "21m commodity-ta",
+			"channel_id": "1152298400826527774",
+			"webhook_url": "https://discord.com/api/webhooks/1242809568732512387/nRg1jhYpXDRyPvJQpXVAsEk42lo0HbRN5A8x9m6EEUQ_pQScPfgNsZuXC2ysfSpKTcKs"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m btc-updates",
+			"channel_id": "1152299266669293698",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m eth-updates",
+			"channel_id": "1152298705500766208",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m altcoin-updates",
+			"channel_id": "1152299367202553967",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m index-updates",
+			"channel_id": "1152299462279045243",
 			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m degen-play",
-			"channel_id": "1194239693643067412",
+			"channel_id": "1152297371150073917",
 			"webhook_url": "https://discord.com/api/webhooks/1242809765449437254/ZbdYYrw43vcEeHVwcI1Xd_C0ZLbKUHS6M0J0IYEbzec0P-7JC-2xpyci-PcT0iSnxjcJ"
 		},
 		{
@@ -856,6 +923,18 @@
 			"_comment": "bertra-trades",
 			"channel_id": "1105534211106021486",
 			"webhook_url": "https://discord.com/api/webhooks/1247747685067259904/nKcQ2794AsPhDtAmgHVhpR5Z35MjwXDj9jegARBfl27--4Q3Od3gl0KuooRTX1A7NC40"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "test eliz-1k-100k",
+			"channel_id": "942490105485082704",
+			"webhook_url": "https://discord.com/api/webhooks/1248694464021790751/T56FH49TPZ6BASfxTmrFJDu7ra89Bs3A3TZjLiNhiikbsoo69mKfdgesyXqt2fGSbmNs"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "test cbs",
+			"channel_id": "1199352172748488775",
+			"webhook_url": "https://discord.com/api/webhooks/1248694693609472042/KfQUiAwkCOkopftSFDIomMYV45Vpkzy20NuqvNb7zRQTzExeHr9AgjxFcc_yCvlbzTsF"
 		}
 	],
 

@@ -828,25 +828,25 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "ken-analysis",
-			"channel_id": "1105533931153019000",
+			"channel_id": "1044693482561863730",
 			"webhook_url": "https://discord.com/api/webhooks/1247735161672568912/nV8JTS9KoqWn4ze0A-iSGa2EqtEtJsgGQww4-RKk36r0KKpYIwpvC_3UsQw0nrh2PWNt"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ken-1k-100k-spot",
-			"channel_id": "1212375735222804480",
+			"channel_id": "1044693776024752238",
 			"webhook_url": "https://discord.com/api/webhooks/1247735418338803712/bSymuoAol1SKeC95u4no3CLw8fX1kItoUA3P9l9RipRfaeF_coitlo6FWpK5-0OlVodO"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ken-trades",
-			"channel_id": "1105534095380971520",
+			"channel_id": "1086232691780894790",
 			"webhook_url": "https://discord.com/api/webhooks/1247735370863611988/ZpwbZ_3mM7K1vYjMI2dXZSQ9kj2bfd3vMNxMpJrD7hIf9AcOTKfXH83sMfXtVhh3BWLy"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "bertra-analysis",
-			"channel_id": "1200167066221682688",
+			"channel_id": "1044694280733720586",
 			"webhook_url": "https://discord.com/api/webhooks/1247747633246638140/A5GEEdxCZilFg76Hy6EB5_oyc40y4lzKjKuXqcCAXEWZUdHGmlzvSyGNqMPldCg9L8_X"
 		},
 		{

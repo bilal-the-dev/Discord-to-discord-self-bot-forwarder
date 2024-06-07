@@ -120,25 +120,25 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne trade-ideas",
-			"channel_id": "1108449555546112101",
+			"channel_id": "1097082572258947082",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne market-thoughts",
-			"channel_id": "1073945912520478760",
+			"channel_id": "1097082506370633738",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne crypto-charts",
-			"channel_id": "1091769903452786778",
+			"channel_id": "1097082463672615033",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "mayne education",
-			"channel_id": "1073946461261275197",
+			"channel_id": "1097082617528078406",
 			"webhook_url": "https://discord.com/api/webhooks/1242920665380556931/FXnQzouxUON3s5lZkNCS3gHKBohHk2qoNJjMzu6O0DGlZ0RovrIvY3bDEcXYaZPn1fi0"
 		},
 		{
@@ -150,25 +150,25 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub charts",
-			"channel_id": "1022562416422289439",
+			"channel_id": "730175447127556166",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub trade-ideas",
-			"channel_id": "1073946551648530502",
+			"channel_id": "1072973163828351149",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "ub education",
-			"channel_id": "1022562461209084006",
+			"channel_id": "730175463586136144",
 			"webhook_url": "https://discord.com/api/webhooks/1242921233314611230/XvDLjPM6mdCMjuYTP3rCXVrRYYl8ViUfjQp1PXQl8WbnIpmkn2i-hh6nW1Z8Kldn8jYT"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "krillin swing-spot",
-			"channel_id": "1073946320433315921",
+			"channel_id": "827486962704842752",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
 		},
 		{
@@ -185,12 +185,6 @@
 		},
 		{
 			"use_webhook_profile": true,
-			"_comment": "krillin macro-plan",
-			"channel_id": "1091770071631794297",
-			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
-		},
-		{
-			"use_webhook_profile": true,
 			"_comment": "krillin trade-ideas",
 			"channel_id": "730174973595091034",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
@@ -198,7 +192,7 @@
 		{
 			"use_webhook_profile": true,
 			"_comment": "krillin charts",
-			"channel_id": "1091769683616731156",
+			"channel_id": "730174948794171393",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
 		},
 		{

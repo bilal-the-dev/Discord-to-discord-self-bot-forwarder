@@ -922,6 +922,18 @@
 			"_comment": "bertra-trades",
 			"channel_id": "1105534211106021486",
 			"webhook_url": "https://discord.com/api/webhooks/1247747685067259904/nKcQ2794AsPhDtAmgHVhpR5Z35MjwXDj9jegARBfl27--4Q3Od3gl0KuooRTX1A7NC40"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "test eliz-1k-100k",
+			"channel_id": "942490105485082704",
+			"webhook_url": "https://discord.com/api/webhooks/1248694464021790751/T56FH49TPZ6BASfxTmrFJDu7ra89Bs3A3TZjLiNhiikbsoo69mKfdgesyXqt2fGSbmNs"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "test cbs",
+			"channel_id": "1199352172748488775",
+			"webhook_url": "https://discord.com/api/webhooks/1248694693609472042/KfQUiAwkCOkopftSFDIomMYV45Vpkzy20NuqvNb7zRQTzExeHr9AgjxFcc_yCvlbzTsF"
 		}
 	],
 

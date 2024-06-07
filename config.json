@@ -740,49 +740,85 @@
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m stream-anns",
-			"channel_id": "1170015878620926073",
+			"channel_id": "1153017309758242968",
 			"webhook_url": "https://discord.com/api/webhooks/1182468370931646465/di8iB7Hjz4yjUA334wuNvQK6ofUIOIFOSKj6Hhx96wGTs-YT5U3v0q-0ZwDcaMC9r3qp"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m spot-futures",
-			"channel_id": "1170015913316208772",
+			"channel_id": "1152297469330337923",
 			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m spot-futures-updates",
-			"channel_id": "1194239853659963433",
+			"channel_id": "1152297909853884587",
 			"webhook_url": "https://discord.com/api/webhooks/1181750411506487336/RSPpngOuaEg8uXZo7tRPIEHANN7PW08YDaCuOhorfdn5KkgpY-nCDYyS_-ZI78yXOGJu"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m trade-questions",
-			"channel_id": "1170015955494117516",
+			"channel_id": "1152298076736856084",
 			"webhook_url": "https://discord.com/api/webhooks/1242809455687630858/1_R10uX-CbI0ehuUtq6MEvEze2DPLDYZ4xKfc_EZatrPMxig3nZ3byRGAR8XC1xm8DQW"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m crypto-ta",
-			"channel_id": "1170016497553387640",
+			"_comment": "21m bitcoin-ta",
+			"channel_id": "1152298557357961216",
 			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m other-ta",
-			"channel_id": "1194238679946891335",
+			"_comment": "21m eth-ta",
+			"channel_id": "1152298702124355724",
+			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m alt-ta",
+			"channel_id": "1152298792788435045",
+			"webhook_url": "https://discord.com/api/webhooks/1242809522930843648/MwKHXHulR91yUsw1c50NLlCG56FxdHW4j5rDgl57-bAya50rTrJlQ_ouJZMZlDiLgF2b"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m index-ta",
+			"channel_id": "1152298934258106478",
 			"webhook_url": "https://discord.com/api/webhooks/1242809568732512387/nRg1jhYpXDRyPvJQpXVAsEk42lo0HbRN5A8x9m6EEUQ_pQScPfgNsZuXC2ysfSpKTcKs"
 		},
 		{
 			"use_webhook_profile": false,
-			"_comment": "21m daily-updates",
-			"channel_id": "1194238789070098523",
+			"_comment": "21m commodity-ta",
+			"channel_id": "1152298400826527774",
+			"webhook_url": "https://discord.com/api/webhooks/1242809568732512387/nRg1jhYpXDRyPvJQpXVAsEk42lo0HbRN5A8x9m6EEUQ_pQScPfgNsZuXC2ysfSpKTcKs"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m btc-updates",
+			"channel_id": "1152299266669293698",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m eth-updates",
+			"channel_id": "1152298705500766208",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m altcoin-updates",
+			"channel_id": "1152299367202553967",
+			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "21m index-updates",
+			"channel_id": "1152299462279045243",
 			"webhook_url": "https://discord.com/api/webhooks/1242809715524763688/7Qy4rBQvySHw0I8DVBUt6S5sB1lHaafHFJqudPxfmgSMJMRRyx4WW2EAjJTqCHLqlg01"
 		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "21m degen-play",
-			"channel_id": "1194239693643067412",
+			"channel_id": "1152297371150073917",
 			"webhook_url": "https://discord.com/api/webhooks/1242809765449437254/ZbdYYrw43vcEeHVwcI1Xd_C0ZLbKUHS6M0J0IYEbzec0P-7JC-2xpyci-PcT0iSnxjcJ"
 		},
 		{

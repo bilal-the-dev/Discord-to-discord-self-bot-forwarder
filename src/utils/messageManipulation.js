@@ -29,11 +29,12 @@ const replaceMentions = async (message) => {
 	});
 };
 
-const replaceFilterWords = (content) =>
-	content.replace(
+const replaceFilterWords = (message) => {
+	message.content = message.content.replace(
 		filterWordsRegex,
 		(match) => filterWords[match.toLowerCase()]
 	);
+};
 
 const addMessageMapData = (message, id, starterContent) => {
 	const data = messageMap.findMessage(id);

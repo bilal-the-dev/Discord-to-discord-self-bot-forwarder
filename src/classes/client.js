@@ -47,7 +47,7 @@ module.exports = class MirrorClient extends Client {
 
 	onReady() {
 		console.log(`${this.user.tag} is now mirroring >:)`);
-		this.user.setPresence({ status: config["status"] });
+		this.user.setStatus(config["status"]);
 	}
 
 	async onMessage(message) {
@@ -65,7 +65,7 @@ module.exports = class MirrorClient extends Client {
 			const m = await sendWebhook(filteredContent, message, webhook);
 			messageMap.addMessage(m, message.id);
 		} catch (error) {
-			console.log(error);
+			// console.log(error);
 		}
 	}
 };

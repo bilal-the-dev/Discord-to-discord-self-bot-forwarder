@@ -1,6 +1,6 @@
 {
 	"token": "MTE2NzUwNDU2MzIzMDc0MDU3Ng.GdAv0L.albxLckMP9at-7XJDRi3RPjN0NenCJO3CSrjxE",
-	"status": "offline",
+	"status": "invisible",
 	"SOURCE_GUILD_ID": "1167582827236311113",
 	"IS_SPOILER_ON": false,
 
@@ -935,7 +935,7 @@
 			"_comment": "test cbs",
 			"channel_id": "1199352172748488775",
 			"webhook_url": "https://discord.com/api/webhooks/1248694693609472042/KfQUiAwkCOkopftSFDIomMYV45Vpkzy20NuqvNb7zRQTzExeHr9AgjxFcc_yCvlbzTsF"
-		},	
+		},
 		{
 			"use_webhook_profile": false,
 			"_comment": "text-source",
@@ -948,7 +948,6 @@
 			"channel_id": "1248818518674378835",
 			"webhook_url": "https://discord.com/api/webhooks/1248819848923058176/FqnX5aYlBz32oHWpML9acfvzs_AX5KN2VLI-EI3b0AD7QXKJuKCV9nmZdaFZbP42M6Hm"
 		}
-		
 	],
 
 	"blacklist": ["nigger"],

@@ -941,6 +941,12 @@
 			"_comment": "text-source",
 			"channel_id": "1247958702628278336",
 			"webhook_url": "https://discord.com/api/webhooks/1248752713949515848/sAxh8npPxmJs_TVUBeE20j1q5GLMmjEi26YdGJVFGTm4hOrtkweIe65644LwwSocD88u"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma follis",
+			"channel_id": "1242969589797752903",
+			"webhook_url": "https://discord.com/api/webhooks/1249229729320407040/cV6-2GmrKjbeHZLBinuxDWmLtIdkzjWAPA4siz6IzyKZsX-rFH9SsGfqSAFRNpeW2BEE"
 		}
 	],
 

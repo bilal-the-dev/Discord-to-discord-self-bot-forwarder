@@ -950,6 +950,72 @@
 		},
 		{
 			"use_webhook_profile": true,
+			"_comment": "chroma tyler",
+			"channel_id": "1242969654872248370",
+			"webhook_url": "https://discord.com/api/webhooks/1249368746506715136/Ikt4n3xZgsNjyZvmSNs8oYjE0tXwNcKeBatpWCzjalAYHr49FX0NI2_7AHZMgIU4H1H_"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma jhonzi",
+			"channel_id": "1242969715903692842",
+			"webhook_url": "https://discord.com/api/webhooks/1249369064799866921/wm6m2EI1Ob2G0gwzFWwoZv3WWRlV_vvI9HuY37KjTleLq189yJUwsV6K54yRNkVaad9Z"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma victorious",
+			"channel_id": "1242969864327663696",
+			"webhook_url": "https://discord.com/api/webhooks/1249369283541078169/Ra91km6O0gR83NLkamevlzGV3inuAi1wx9Sor28pJZ2hFKW4iW-QL-uxfuzABQTca-S_"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma lala",
+			"channel_id": "1242969894065143808",
+			"webhook_url": "https://discord.com/api/webhooks/1249369453548798062/kObR6CTA5t_nt0fhSJCMyBMJe7TuJDcAQu5l_Gq84dIy7limK2EaENVHTUoNUaCHPWlC"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma mva",
+			"channel_id": "1242969923244920852",
+			"webhook_url": "https://discord.com/api/webhooks/1249369651599904839/zFHnOWiDchg99cH1URx6-KoTUTM4UI-cZtcZFj0qudrV5dmLT3QkqwyHe8g8zd30BBeB"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma perdu",
+			"channel_id": "1242969954106740836",
+			"webhook_url": "https://discord.com/api/webhooks/1249369828339355749/QhUDt09FqmuHyj0u-kp3ezl1pEXhr1gYMRUyB2_5VhcGR3NWg48kGVmdljfTfkFnJuLd"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma beniduboss",
+			"channel_id": "1242970102769385582",
+			"webhook_url": "https://discord.com/api/webhooks/1249369994257498202/_5tJpHRjSII1MnsDwoMayG8c7KHsYrmuBBmWvkYt9lJhdrIs5D0mc3fh0e2e5hhb9HmA"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "chroma miztakes",
+			"channel_id": "1242970195874680922",
+			"webhook_url": "https://discord.com/api/webhooks/1249370122355998864/I75t_LeDMI_Z4ATJDlUBILzOyqt4eyF8_be_m_ANYaoasxHw41hAqMSTZYcyn4INfEP_"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "chroma talents-crypto",
+			"channel_id": "1242970244104851526",
+			"webhook_url": "https://discord.com/api/webhooks/1249370260360925256/Wzqi_3Nb1RnZBt6vo3WDDulUwwfdA1ZR3-WhuVWYacwQcL3bQLjTb3DLmKeJtzihOq6-"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "chroma trade-updates",
+			"channel_id": "1242971227627192321",
+			"webhook_url": "https://discord.com/api/webhooks/1249370561004441694/n61uoJhtBvzDCRxOrr9i5CjN8fojCiT0Wszty3-Zc2j0EqPlCW8YlfhOXeEvG_Fzogty"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "chroma active-trades-limits",
+			"channel_id": "1242971114762666045",
+			"webhook_url": "https://discord.com/api/webhooks/1249370607598964788/78AE2Ta-tH13qB89VuTgWqaqDiqs-a4LxuH79DUILwX-zQmQAV8Z0HjeXaiLhEMWOL9a"
+		},
+		{
+			"use_webhook_profile": true,
 			"_comment": "impulse db",
 			"channel_id": "1179100949856399410",
 			"webhook_url": "https://discord.com/api/webhooks/1247560181903003780/SNqtyhXFIMJjM4W6ornLOXhJQUiCpgRX3UO4CgzX5dkoZJvle7M4u2_FyoYrZrMngIMp"

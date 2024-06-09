@@ -947,13 +947,22 @@
 			"_comment": "chroma follis",
 			"channel_id": "1242969589797752903",
 			"webhook_url": "https://discord.com/api/webhooks/1249229729320407040/cV6-2GmrKjbeHZLBinuxDWmLtIdkzjWAPA4siz6IzyKZsX-rFH9SsGfqSAFRNpeW2BEE"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "impulse db",
+			"channel_id": "1179100949856399410",
+			"webhook_url": "https://discord.com/api/webhooks/1247560181903003780/SNqtyhXFIMJjM4W6ornLOXhJQUiCpgRX3UO4CgzX5dkoZJvle7M4u2_FyoYrZrMngIMp"
 		}
+
 	],
 
 	"blacklist": ["nigger"],
 
 	"filterWords": {
 		"cryptohub.ltd": "dsc.gg/orcacrypto",
-		"cryptohub.cfd": "dsc.gg/orcacrypto"
+		"cryptohub.cfd": "dsc.gg/orcacrypto",
+		"☆ᶜʳʸᵖᵗᵒᴸᵉᵃᵏˢᶻ": "dsc.gg/orcacrypto"
+		
 	}
 }

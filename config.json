@@ -954,6 +954,12 @@
 			"channel_id": "1179100949856399410",
 			"webhook_url": "https://discord.com/api/webhooks/1247560181903003780/SNqtyhXFIMJjM4W6ornLOXhJQUiCpgRX3UO4CgzX5dkoZJvle7M4u2_FyoYrZrMngIMp"
 		}
+		{
+			"use_webhook_profile": true,
+			"_comment": "kim",
+			"channel_id": "1239839008046190632",
+			"webhook_url": "https://discord.com/api/webhooks/1249240811850305619/bhb0Vf4dsPpQJetdkqWf4SWrh547C11Ou9CrXQP6oqERIVS_5GzqX85SMUqbsXQBg3ah"
+		}
 
 	],
 

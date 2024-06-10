@@ -1037,6 +1037,72 @@
 			"_comment": "kim",
 			"channel_id": "1239839008046190632",
 			"webhook_url": "https://discord.com/api/webhooks/1249240811850305619/bhb0Vf4dsPpQJetdkqWf4SWrh547C11Ou9CrXQP6oqERIVS_5GzqX85SMUqbsXQBg3ah"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "yongwen chats",
+			"channel_id": "1195482022035067021",
+			"webhook_url": "https://discord.com/api/webhooks/1249793107407667413/ivzgrST7pxPoSJDSlu_HSw8kpGumjQBbP6N_gMbYlpkcV3MkmhToHijxQwOVTbRo1sU8"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen btc-eth-updates",
+			"channel_id": "1195482117048635562",
+			"webhook_url": "https://discord.com/api/webhooks/1249793259308449885/QKxmsJ73r8W24oJm1nfDL7xU8kqMdzSuFXev7WumHEgpq8vb-zsUwGp_uELDcZE5-rUR"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "yongwen profits",
+			"channel_id": "1195482204856389653",
+			"webhook_url": "https://discord.com/api/webhooks/1249793393035317319/0__541eeqbErcGjWiiS_2__yy2UiBWzLVx745sQjbHxR-pKH0vEroLBkPfbb5fZnDTyY"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "yongwen losses",
+			"channel_id": "1195482356765692004",
+			"webhook_url": "https://discord.com/api/webhooks/1249793663563993271/kDOG5rMJ8CXKTtGPhQVpku8e_uyAuA2pXrqMN3Lp7N-hpyvX7UURrRvHmpslDhqItvKv"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen live trades",
+			"channel_id": "1195483761312288949",
+			"webhook_url": "https://discord.com/api/webhooks/1249793988249124864/Vj2TcxuaBHZNPAItV-PIaD1Ah3WfZNwwJeZbTjZO9Xj4U1isl2Idfd0_2-os00V7emyO"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen spot",
+			"channel_id": "1195483013417541724",
+			"webhook_url": "https://discord.com/api/webhooks/1249794068561657937/P6XGlVF7tUwdD7YtrhkgwKhSW7xZTRqacJvcZF7wiDisk__GflWG8cJQHktn7TdvySJ9"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen challenge",
+			"channel_id": "1195484046181019668",
+			"webhook_url": "https://discord.com/api/webhooks/1249793663563993271/kDOG5rMJ8CXKTtGPhQVpku8e_uyAuA2pXrqMN3Lp7N-hpyvX7UURrRvHmpslDhqItvKv"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "yongwen anz",
+			"channel_id": "1195482609606721576",
+			"webhook_url": "https://discord.com/api/webhooks/1249794430840606811/UNehBu0HgYrx51pnVCSQ8xw8xoF5ydmTmtz5tpoL4wKT-3wVUkBDYz795t2NEdak5CvG"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "yongwen sherlock",
+			"channel_id": "1195482714841808968",
+			"webhook_url": "https://discord.com/api/webhooks/1249794643101618228/lrySuN0PTjVyilmOlgSOup4w4T8fTwpME0OoLo-Hb7dqtfFbl_oRyiaHuDfYbAWG1IyQ"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen stocks",
+			"channel_id": "1195484170487603261",
+			"webhook_url": "https://discord.com/api/webhooks/1249794824169590957/F3GJUxNnZB1BSJIx4zJs_f-2-zrRQicxiqYs0dqWZrn6pbc_IY46QNm6MeHT8BZujaHA"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "yongwen forex",
+			"channel_id": "1195484223851733022",
+			"webhook_url": "https://discord.com/api/webhooks/1249794902544613386/Tus0EMHv_g7A9dxWtaz80zkekF-zUhJYWWg0MRKzuguLffNT7CeNtqf7sYgj94C0ihJF"
 		}
 
 	],

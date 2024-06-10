@@ -464,6 +464,36 @@
 		},
 		{
 			"use_webhook_profile": true,
+			"_comment": "jeliaz market-thoughts",
+			"channel_id": "1192971297660084304",
+			"webhook_url": "https://discord.com/api/webhooks/1243018975047061544/AmhGacnjNvu4b96d-Go-vbkBf8fzcKLBn-f13L_XciVAbtPiIrG18RhZ2UMz2aAWkYSN"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "jeliaz crypto-trades",
+			"channel_id": "1192971375225360495",
+			"webhook_url": "https://discord.com/api/webhooks/1243019050825809960/ive9DgiAp8A9nf-coy0N0Uffo8lO5LY6ziueiUuHvf58X1t26vOFAKEC7yaOwl7JGhxy"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "jeliaz education",
+			"channel_id": "1192971508973322270",
+			"webhook_url": "https://discord.com/api/webhooks/1243019513214009345/yzsieuuMRsPD8ZwTMbip6rnI-23MeBm02CU_YxTHOSWO_hfCAYbHXzzRy9dl6xHVdtjJ"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "jeliaz questions",
+			"channel_id": "1192971578393231520",
+			"webhook_url": "https://discord.com/api/webhooks/1243019184548483122/UlGYnUUrd1Yxp1K5IuhFhPt6mixll5bWQ_lNHxyuK9WheqJ4Xoh_lbesUTPkyjZhyo-M"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "jeliaz trade tracker",
+			"channel_id": "1227023263159291955",
+			"webhook_url": "https://discord.com/api/webhooks/1243019232606687363/JQR38Ri9qt1hTBFAKchoX5X-XLgZS6QKF8aMrugdTIXE5fG1NIee52uX3ByeZplT_hNe"
+		},
+		{
+			"use_webhook_profile": true,
 			"_comment": "predictum",
 			"channel_id": "1143778071552471120",
 			"webhook_url": "https://discord.com/api/webhooks/1242858898751492096/1HTQ0xBloj9V_nW89_q7nfucqAX36HWxsT3LXE05DzNhRAB6XTotfWdK4Sy7Xh_t4-Sv"

@@ -494,20 +494,26 @@
 		},
 		{
 			"use_webhook_profile": true,
-			"_comment": "the hunt",
-			"channel_id": "1044598597045469254",
+			"_comment": "the hunt btc",
+			"channel_id": "590219326292754456",
+			"webhook_url": "https://discord.com/api/webhooks/1242323084497649735/RDmbe_oFA1fcVZ8xXL0gjce7BedZRW1cl6HeXcgaRCaCV-TyMC_YHBrljMW1PhV6bo7U"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "the hunt alts",
+			"channel_id": "677649536474415125",
 			"webhook_url": "https://discord.com/api/webhooks/1242323084497649735/RDmbe_oFA1fcVZ8xXL0gjce7BedZRW1cl6HeXcgaRCaCV-TyMC_YHBrljMW1PhV6bo7U"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "the hunt 10k",
-			"channel_id": "1202985067064856617",
+			"channel_id": "1202191808398889001",
 			"webhook_url": "https://discord.com/api/webhooks/1242323562061107241/PzRriQTUKfdxUE-R1lsMW55y3GQWK9mLeC2K0kNoXfmRe8XNFuvoCPJCW-BPjC9J-9pI"
 		},
 		{
 			"use_webhook_profile": true,
 			"_comment": "the hunt low caps",
-			"channel_id": "1212376348807528468",
+			"channel_id": "1209785166587760710",
 			"webhook_url": "https://discord.com/api/webhooks/1242323269655334942/nholUMKHFJEteXynvIpWEFbK8eLcDJWjLnRh8pBn2DdULY1pqKP4KyRZOY_afAqdpffu"
 		},
 		{
@@ -1013,6 +1019,12 @@
 			"_comment": "chroma active-trades-limits",
 			"channel_id": "1242971114762666045",
 			"webhook_url": "https://discord.com/api/webhooks/1249370607598964788/78AE2Ta-tH13qB89VuTgWqaqDiqs-a4LxuH79DUILwX-zQmQAV8Z0HjeXaiLhEMWOL9a"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "chroma onchain",
+			"channel_id": "1242970723274719312",
+			"webhook_url": "https://discord.com/api/webhooks/1249750398667853845/ML9B2VyIt6ugwNEp8X0RCAztmTOSbtTSHhDJsBFmbHaJ7uJvgpSSKwhtPCWJCEDgqqTR"
 		},
 		{
 			"use_webhook_profile": true,

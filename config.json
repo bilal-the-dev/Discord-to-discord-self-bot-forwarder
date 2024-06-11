@@ -1057,6 +1057,12 @@
 			"webhook_url": "https://discord.com/api/webhooks/1249750398667853845/ML9B2VyIt6ugwNEp8X0RCAztmTOSbtTSHhDJsBFmbHaJ7uJvgpSSKwhtPCWJCEDgqqTR"
 		},
 		{
+			"use_webhook_profile": false,
+			"_comment": "chroma notifications",
+			"channel_id": "1133545315417473094",
+			"webhook_url": "https://discord.com/api/webhooks/1249916933403443252/MinHpjJ30CR5SQ1gZTYAW-BZO7p6aqS1spBz09CdB1I5x2MFCemvrj6omm1xPj_Cc7JQ"
+		},
+		{
 			"use_webhook_profile": true,
 			"_comment": "impulse db",
 			"channel_id": "1179100949856399410",

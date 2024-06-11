@@ -1139,6 +1139,54 @@
 			"_comment": "yongwen forex",
 			"channel_id": "1195484223851733022",
 			"webhook_url": "https://discord.com/api/webhooks/1249794902544613386/Tus0EMHv_g7A9dxWtaz80zkekF-zUhJYWWg0MRKzuguLffNT7CeNtqf7sYgj94C0ihJF"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem active-positions",
+			"channel_id": "1104259462673481789",
+			"webhook_url": "https://discord.com/api/webhooks/1245088319684219052/vO9AgJCy1IAX_yHrnk2ohSX5qxTCDN4riNvFevPPwY7-ma8-LoLT6Cr83K2xR8YRUg8C"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem position-alerts",
+			"channel_id": "1108453104606773419",
+			"webhook_url": "https://discord.com/api/webhooks/1245088342987640873/oHAeO8UGidOooB7sQpZXgYcVHWpQpNn8RQC0Rcoi_sNxcEaCa18iBLBgYpFYhfdSnzmK"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem calls-alerts",
+			"channel_id": "1108453104606773419",
+			"webhook_url": "https://discord.com/api/webhooks/1245088427737743521/a8G6OTjEOBES2giPk-U1S3F8Xbl5TI0KF1BPZmBX5L-fM9FD9lvkx6KpkVuEXuN1MdbV"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem calls-active",
+			"channel_id": "1168577292822380585",
+			"webhook_url": "https://discord.com/api/webhooks/1245088446490480734/iPsvAppf43W7kGI0ipCrHWmEVCoqxWfE7NWz_IvTYzbLeQtLHjzcAmP1fp8nw-Qq8ahm"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem subhan",
+			"channel_id": "1095379398334615672",
+			"webhook_url": "https://discord.com/api/webhooks/1245088488630779965/-3p3JOHOzMSv--1HXAfk0AfYOxhVfinw6nr1_s3QLnRaeJznyzDeszQyTVNG6l6UAg9z"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem bheem-backup",
+			"channel_id": "1095376968905674824",
+			"webhook_url": "https://discord.com/api/webhooks/1245088508625031220/UyhMTBp9mb1TNn_OyNgI8_Qw0ar5KRyxWOMh__gyyr9_bbmWu_i-fgpWSET61TV9PJJK"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem calls",
+			"channel_id": "1168576819595841568",
+			"webhook_url": "https://discord.com/api/webhooks/1249921966878756989/UdkyeSD-f4fQA_aj_2TBosik7w4mnIsTAOihoT6S0Hsym9n-680A6xuwvLlS0QKRPoTP"
+		},
+		{
+			"use_webhook_profile": false,
+			"_comment": "bheem crypto",
+			"channel_id": "1097561687369986198",
+			"webhook_url": "https://discord.com/api/webhooks/1249922010382078003/Trf7soeof7eqlQviO4v54FVpB6qlasWMLWwa0hGTOf9PlPc4OcuDHn-cIKkQGy-8k404"
 		}
 
 	],

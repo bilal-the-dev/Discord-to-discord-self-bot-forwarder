@@ -1,8 +1,10 @@
 {
 	"token": "MTE2NzUwNDU2MzIzMDc0MDU3Ng.GdAv0L.albxLckMP9at-7XJDRi3RPjN0NenCJO3CSrjxE",
+	"MONGO_URI": "mongodb+srv://benluka:ihackedwifi240@cluster0.hhpyoj3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 	"status": "invisible",
 	"SOURCE_GUILD_ID": "1167582827236311113",
 	"IS_SPOILER_ON": false,
+	"IS_IMAGE_EMBED_REMOVAL_ON": true,
 
 	"mirrors": [
 		{
@@ -1194,7 +1196,6 @@
 			"channel_id": "1097561687369986198",
 			"webhook_url": "https://discord.com/api/webhooks/1249922010382078003/Trf7soeof7eqlQviO4v54FVpB6qlasWMLWwa0hGTOf9PlPc4OcuDHn-cIKkQGy-8k404"
 		}
-
 	],
 
 	"blacklist": ["nigger"],
@@ -1203,6 +1204,5 @@
 		"cryptohub.ltd": "dsc.gg/orcacrypto",
 		"cryptohub.cfd": "dsc.gg/orcacrypto",
 		"☆ᶜʳʸᵖᵗᵒᴸᵉᵃᵏˢᶻ": "dsc.gg/orcacrypto"
-		
 	}
 }

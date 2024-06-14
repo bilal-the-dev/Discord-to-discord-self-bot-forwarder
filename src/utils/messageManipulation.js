@@ -12,6 +12,16 @@ function replaceSpoilers(message) {
 
 	message.content = message.content.replace(spoilerPattern, "$1");
 }
+
+const replaceChannelMentions = (message) => {
+	message.mentions.channels.forEach((channel) => {
+		message.content = message.content.replaceAll(
+			`<#${channel.id}>`,
+			`#${channel.name}`
+		);
+	});
+};
+
 const replaceMentions = async (message) => {
 	const {
 		mentions: { roles },
@@ -60,20 +70,13 @@ const addReplyIfExist = (message) => {
 	const messageId = url.split("/").pop();
 	message.content = lines.slice(1).join("\n").trim();
 
-	// console.log(messageId);
-	// console.log(url);
-	// console.log(textInsideBrackets);
-
 	addMessageMapData(message, messageId, textInsideBrackets);
 };
 
-const addEditIfExist = (message) => {
-	addMessageMapData(message, message.id, "Message Edited at:");
-};
 module.exports = {
 	replaceMentions,
 	replaceFilterWords,
 	addReplyIfExist,
-	addEditIfExist,
 	replaceSpoilers,
+	replaceChannelMentions,
 };

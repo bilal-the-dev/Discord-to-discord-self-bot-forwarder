@@ -1,15 +1,17 @@
 const { MessageFlags } = require("discord.js-selfbot-v13");
 
-const sendWebhook = async (message, webhook) => {
+const sendWebhook = async (message, webhook, isThread) => {
 	const { content, author, attachments, embeds } = message;
+
 	const reply = {
 		content: content || null,
-		files: [...attachments.values()],
+		files: [...attachments?.values()],
 		username: webhook.useCustomProfile ? webhook.name : author.username,
 		avatarURL: webhook.useCustomProfile
 			? webhook.avatarUrl
 			: author.displayAvatarURL(),
 		embeds: embeds,
+		...(isThread && { threadId: isThread }),
 	};
 
 	// reply.flags = MessageFlags.FLAGS.SUPPRESS_EMBEDS;

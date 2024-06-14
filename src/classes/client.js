@@ -79,6 +79,8 @@ module.exports = class MirrorClient extends Client {
 			const webhook = this.mirrors[channelId];
 
 			await verifyMessage(webhook, message);
+
+			console.log(message.content);
 			await replaceMentions(message);
 			replaceChannelMentions(message);
 

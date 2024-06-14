@@ -191,7 +191,7 @@
 			"use_webhook_profile": true,
 			"_comment": "krillin trade-ideas",
 			"channel_id": "730174973595091034",
-			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
+			"webhook_url": "https://discord.com/api/webhooks/1245027446978248735/rqPkzrEkmrEeEF9spi8roQAT_V9P12yD_4qD-EQAUCi5PIbGGOFHOWiOzH5TxxqYfBSv"
 		},
 		{
 			"use_webhook_profile": true,
@@ -204,6 +204,12 @@
 			"_comment": "krillin education",
 			"channel_id": "730175095414194237",
 			"webhook_url": "https://discord.com/api/webhooks/1242921775067828234/ZHznKiWoYTf0agOPiVtOm-c4adWLvBW7w9HYP8qelmTg2ABnZgZrTnkh2FUGudB7JdDF"
+		},
+		{
+			"use_webhook_profile": true,
+			"_comment": "krillin tradfi",
+			"channel_id": "1046872563248267274",
+			"webhook_url": "https://discord.com/api/webhooks/1245027324865413131/MKGHCZpxWMbji1WL5aGqqRRAO9yBobu3RSWYht1oS0B-GbxPx_2-PN7jn-GC5QgZZhmQ"
 		},
 		{
 			"use_webhook_profile": true,

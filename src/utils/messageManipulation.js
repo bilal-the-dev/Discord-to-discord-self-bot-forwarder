@@ -21,6 +21,10 @@ const replaceChannelMentions = (message) => {
 			`<#${channel.id}>`,
 			`#${channel.name}`
 		);
+		message.content = message.content.replaceAll(
+			`<@#${channel.id}>`,
+			`#${channel.name}`
+		);
 		console.log(message.content);
 	});
 };

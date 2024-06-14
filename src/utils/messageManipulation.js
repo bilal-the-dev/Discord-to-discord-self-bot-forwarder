@@ -15,10 +15,13 @@ function replaceSpoilers(message) {
 
 const replaceChannelMentions = (message) => {
 	message.mentions.channels.forEach((channel) => {
+		console.log(channel.name);
+		console.log(message.content);
 		message.content = message.content.replaceAll(
 			`<#${channel.id}>`,
 			`#${channel.name}`
 		);
+		console.log(message.content);
 	});
 };
 

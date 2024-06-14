@@ -13,20 +13,50 @@ function replaceSpoilers(message) {
 	message.content = message.content.replace(spoilerPattern, "$1");
 }
 
-const replaceChannelMentions = (message) => {
-	message.mentions.channels.forEach((channel) => {
-		console.log(channel.name);
-		console.log(message.content);
+function nativeChannelMentionReplace(message) {
+	const { channels } = message.mentions;
+	if (channels.size === 0) return;
+
+	channels.forEach((channel) => {
 		message.content = message.content.replaceAll(
 			`<#${channel.id}>`,
 			`#${channel.name}`
 		);
+	});
+}
+
+const replaceChannelMentions = (message) => {
+	const { client, content } = message;
+	const discordLinkPattern =
+		/https:\/\/discord\.com\/channels\/\d+\/\d+(?=\s|$)/g;
+
+	// Use match method to find all matching links
+	const matches = content.match(discordLinkPattern);
+
+	console.log(matches);
+	// Create a Set to store unique links
+	const uniqueLinks = new Set(matches);
+
+	// Convert the Set back to an array
+	const arr = Array.from(uniqueLinks);
+
+	for (const channelMention of arr) {
+		const channel = client.channels.cache.get(channelMention.split("/").at(-1));
+
+		if (!channel) continue;
+
+		const exactChannelMentionPattern = new RegExp(
+			`(${channelMention})(?=\\s|$)`,
+			"g"
+		);
+
 		message.content = message.content.replaceAll(
-			`<@#${channel.id}>`,
+			exactChannelMentionPattern,
 			`#${channel.name}`
 		);
-		console.log(message.content);
-	});
+	}
+
+	nativeChannelMentionReplace(message);
 };
 
 const replaceMentions = async (message) => {

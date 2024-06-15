@@ -49,7 +49,7 @@ Update the `config.json` file with the appropriate source guild ID, source chann
 		{
 			"_comment": "Balanced (info-main channel)",
 			"channel_id": "1170066899934130197",
-			"webhook_url": "https://discord.com/api/webhooks/1251161532121878591/05w4GfE_jC_ESTH29zhQkKSb9pdyUXvsq7U36nYGRuo147F7Z2FYL4GbIiOYd7rAkjVR"
+			"webhook_url": "https://discord.com/api/webhooks/dummy/dummy"
 		}
 	]
 }

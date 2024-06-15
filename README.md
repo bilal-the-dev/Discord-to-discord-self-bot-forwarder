@@ -19,7 +19,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/discord-forwarder.git
+git clone https://github.com/bilal-the-dev/Discord-to-discord-self-bot-forwarder.git
 cd discord-forwarder
 ```
 

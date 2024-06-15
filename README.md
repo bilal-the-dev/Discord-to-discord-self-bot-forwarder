@@ -39,7 +39,7 @@ TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
 
 ### 4. Edit the configuration file
 
-Update the `config.json` file with the appropriate source guild ID, source channel ID, and webhook URL for the destination channel.
+Create the `config.json` file with the source guild ID, source channel ID, and webhook URL for the destination channel. You can add as many mirrors you want (:
 
 ```json
 {

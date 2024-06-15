@@ -58,86 +58,11 @@ Update the `config.json` file with the appropriate source guild ID, source chann
 ### 5. Run the bot
 
 ```sh
-node forwarder.js
-```
-
-## forwarder.js
-
-```javascript
-const { Client, Intents } = require("discord.js");
-const fetch = require("node-fetch");
-const fs = require("fs");
-require("dotenv").config();
-
-// Load the bot token from .env file
-const TOKEN = process.env.TOKEN;
-
-// Load the config file
-const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
-
-const client = new Client({
-	intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
-});
-
-client.once("ready", () => {
-	console.log(`Logged in as ${client.user.tag}`);
-	client.user.setStatus(config.status);
-});
-
-client.on("messageCreate", async (message) => {
-	// Ignore messages from the bot itself
-	if (message.author.id === client.user.id) return;
-
-	// Check if the message is from the source guild
-	if (message.guild && message.guild.id === config.SOURCE_GUILD_ID) {
-		for (let mirror of config.mirrors) {
-			if (message.channel.id === mirror.channel_id) {
-				// Forward the message using webhook
-				const webhookUrl = mirror.webhook_url;
-				const data = {
-					content: message.content,
-					username: message.author.username,
-					avatar_url: message.author.displayAvatarURL(),
-				};
-				try {
-					const response = await fetch(webhookUrl, {
-						method: "POST",
-						headers: {
-							"Content-Type": "application/json",
-						},
-						body: JSON.stringify(data),
-					});
-					if (!response.ok) {
-						console.error(
-							`Failed to send message: ${response.status} ${response.statusText}`
-						);
-					}
-				} catch (error) {
-					console.error(`Error sending message: ${error}`);
-				}
-			}
-		}
-	}
-});
-
-client.login(TOKEN);
+npm start
 ```
 
 ## Important Notes
 
 - This script uses a self-bot, which is against Discord's Terms of Service. Use it at your own risk.
-- Ensure the bot has read message permissions in the source channel.
+- Ensure the account has read message permissions in the source channel.
 - The webhook URL should be kept private to prevent misuse.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## Acknowledgments
-
-- [discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API.
-- [dotenv](https://github.com/motdotla/dotenv) - Loads environment variables from a .env file into `process.env`.

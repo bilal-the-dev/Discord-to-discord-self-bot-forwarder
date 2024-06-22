@@ -56,6 +56,7 @@ module.exports = class MirrorClient extends Client {
 
 			const data = this.mirrors[channelId];
 
+			console.log(data);
 			await verifyMessage(data, message);
 
 			const { webhook, name, remove_discord_links } = data;

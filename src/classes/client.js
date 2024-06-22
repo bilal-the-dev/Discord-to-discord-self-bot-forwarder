@@ -1,10 +1,14 @@
 const { Client } = require("discord.js-selfbot-v13");
 
 const { generateWebhook } = require("../utils/webhook");
-const { mirrors, status, SOURCE_GUILD_ID } = require("../../config.json");
+const { mirrors, status } = require("../../config.json");
 
 const { verifyMessage } = require("../utils/messageVerification");
 const { sendWebhook } = require("../utils/messageSend");
+const {
+	addGuildName,
+	removeInviteLinks,
+} = require("../utils/messageManipulation");
 
 module.exports = class MirrorClient extends Client {
 	constructor(options) {
@@ -17,12 +21,19 @@ module.exports = class MirrorClient extends Client {
 		const mirrorObj = {};
 
 		for (const mirror of mirrors) {
-			const { webhook_url, channel_id } = mirror;
+			const {
+				webhook_url,
+				channel_id,
+				name,
+				allowed_senders,
+				remove_discord_links,
+			} = mirror;
 
 			const webhook = generateWebhook(webhook_url);
 
-			console.log(webhook);
-			mirrorObj[channel_id] = webhook;
+			const data = { webhook, allowed_senders, name, remove_discord_links };
+
+			mirrorObj[channel_id] = data;
 		}
 
 		return mirrorObj;
@@ -43,9 +54,14 @@ module.exports = class MirrorClient extends Client {
 		try {
 			const { channelId } = message;
 
-			const webhook = this.mirrors[channelId];
+			const data = this.mirrors[channelId];
 
-			await verifyMessage(webhook, message);
+			await verifyMessage(data, message);
+
+			const { webhook, name, remove_discord_links } = data;
+
+			addGuildName(name, message);
+			removeInviteLinks(remove_discord_links, message);
 
 			console.log(message.content);
 

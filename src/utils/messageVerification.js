@@ -6,12 +6,19 @@ const isEphemeral = (message) =>
 
 const isDirectMessage = (message) => !message.guild;
 
-const verifyMessage = async (webhook, message) => {
-	const errMsg = "Bypass failed:";
+const verifyMessage = async (data, message) => {
+	const errMsg = `Bypass failed: Not target message`;
 	const { system } = message;
 
-	if (system || isDirectMessage(message) || isEphemeral(message) || !webhook)
-		throw new AppError(`${errMsg} Not target message`);
+	if (system || isDirectMessage(message) || isEphemeral(message) || !data)
+		throw new AppError(errMsg);
+
+	if (!data.allowed_senders) return;
+
+	console.log(message.author.id);
+
+	if (!data.allowed_senders.includes(message.author.id))
+		throw new AppError(errMsg);
 };
 
 module.exports = {

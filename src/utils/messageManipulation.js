@@ -5,7 +5,8 @@ exports.addGuildName = (name, message) => {
 exports.removeInviteLinks = (remove_discord_links, message) => {
 	if (!remove_discord_links) return;
 	const discordInviteRegex =
-		/discord(?:app\.com\/invite|\.gg(?:\/invite)?)\/([a-zA-Z0-9-]{2,255})/gi;
+		/https?:\/\/(www\.)?discord(?:app\.com\/invite|\.gg(?:\/invite)?)\/[a-zA-Z0-9-]{2,255}/gi;
+
 	message.content = message.content.replace(discordInviteRegex, "");
 };
 // const messageMap = require("./../cache/messageMap");

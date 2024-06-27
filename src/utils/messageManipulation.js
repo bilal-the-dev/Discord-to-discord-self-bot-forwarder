@@ -1,5 +1,5 @@
 exports.addGuildName = (name, message) => {
-	if (name) message.content = `**${name}**:\n${message.content}`;
+	if (name) message.content = `## ${name}:\n${message.content}`;
 };
 
 exports.removeInviteLinks = (remove_discord_links, message) => {

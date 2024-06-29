@@ -1,3 +1,6 @@
+const messageMap = require("../cache/messageMap");
+const { SOURCE_GUILD_ID } = require("./../../config.json");
+
 exports.addGuildName = (name, message) => {
 	if (name) message.content = `## ${name}:\n${message.content}`;
 };
@@ -9,9 +12,22 @@ exports.removeInviteLinks = (remove_discord_links, message) => {
 
 	message.content = message.content.replace(discordInviteRegex, "");
 };
-// const messageMap = require("./../cache/messageMap");
 
-// const { SOURCE_GUILD_ID, filterWords } = require("../../config.json");
+exports.addReplyIfExists = async (message) => {
+	if (!message.reference) return;
+
+	const { reference, content } = message;
+
+	const data = messageMap.findMessage(reference.messageId);
+
+	if (!data) return;
+
+	const [destChannelId, destMessageId] = data;
+
+	const url = `**[Reply to message](<https://discord.com/channels/${SOURCE_GUILD_ID}/${destChannelId}/${destMessageId}>)**`;
+
+	message.content = `${url}\n${content}`;
+};
 
 // const filterWordsRegex = new RegExp(
 // 	`\\b(${Object.keys(filterWords).join("|")})\\b`,

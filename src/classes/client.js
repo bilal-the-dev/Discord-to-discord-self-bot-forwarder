@@ -8,7 +8,9 @@ const { sendWebhook } = require("../utils/messageSend");
 const {
 	addGuildName,
 	removeInviteLinks,
+	addReplyIfExists,
 } = require("../utils/messageManipulation");
+const messageMap = require("../cache/messageMap");
 
 module.exports = class MirrorClient extends Client {
 	constructor(options) {
@@ -27,11 +29,18 @@ module.exports = class MirrorClient extends Client {
 				name,
 				allowed_senders,
 				remove_discord_links,
+				allowed_words,
 			} = mirror;
 
 			const webhook = generateWebhook(webhook_url);
 
-			const data = { webhook, allowed_senders, name, remove_discord_links };
+			const data = {
+				webhook,
+				allowed_senders,
+				name,
+				remove_discord_links,
+				allowed_words,
+			};
 
 			mirrorObj[channel_id] = data;
 		}
@@ -60,12 +69,15 @@ module.exports = class MirrorClient extends Client {
 
 			const { webhook, name, remove_discord_links } = data;
 
+			addReplyIfExists(message);
+
 			addGuildName(name, message);
 			removeInviteLinks(remove_discord_links, message);
 
 			console.log(message.content);
 
-			await sendWebhook(message, webhook);
+			const m = await sendWebhook(message, webhook);
+			messageMap.addMessage(message.id, m);
 		} catch (error) {
 			if (error.isOperational) return;
 			console.log(error);

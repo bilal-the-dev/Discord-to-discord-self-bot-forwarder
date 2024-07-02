@@ -10,7 +10,12 @@
 			"webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
 			"allowed_words": ["stop", "nepotism"],
 			"allowed_senders": ["1234567788", "0987654321"],
-			"remove_discord_links": true
+			"remove_discord_links": true,
+			"remove_everyone_ping": true,
+			"remove_channels": true,
+			"custom_names": {
+				"620547628857425920": "Abraham Signals"
+			}
 		}
 	]
 }

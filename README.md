@@ -69,7 +69,12 @@ Create or edit the `config.json` file with the following structure:
 			"channel_id": "1170066899934130197",
 			"webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
 			"allowed_senders": ["1234567788", "0987654321"],
-			"remove_discord_links": true
+			"remove_discord_links": true,
+			"remove_everyone_ping": true,
+			"remove_channels": true,
+			"custom_names": {
+				"620547628857425920": "Abraham Signals"
+			}
 		}
 	]
 }

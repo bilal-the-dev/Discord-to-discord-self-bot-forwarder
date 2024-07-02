@@ -13,6 +13,25 @@ exports.removeInviteLinks = (remove_discord_links, message) => {
 	message.content = message.content.replace(discordInviteRegex, "");
 };
 
+exports.removeEveryonePing = (remove_everyone_ping, message) => {
+	if (!remove_everyone_ping) return;
+
+	const everyoneRole = message.mentions.roles.find(
+		(r) => r.name === "everyone"
+	);
+
+	if (!everyoneRole) return;
+	message.content = message.content.replaceAll(`<@&${everyoneRole.id}>`, "");
+};
+
+exports.removeChannels = (remove_channels, message) => {
+	if (!removeChannels) return;
+
+	message.mentions.channels.forEach(
+		(c) => (message.content = message.content.replaceAll(`<#${c.id}>`, ""))
+	);
+};
+
 exports.addReplyIfExists = async (message) => {
 	if (!message.reference) return;
 

@@ -9,6 +9,8 @@ const {
 	addGuildName,
 	removeInviteLinks,
 	addReplyIfExists,
+	removeEveryonePing,
+	removeChannels,
 } = require("../utils/messageManipulation");
 const messageMap = require("../cache/messageMap");
 
@@ -23,26 +25,13 @@ module.exports = class MirrorClient extends Client {
 		const mirrorObj = {};
 
 		for (const mirror of mirrors) {
-			const {
-				webhook_url,
-				channel_id,
-				name,
-				allowed_senders,
-				remove_discord_links,
-				allowed_words,
-			} = mirror;
+			const { webhook_url, channel_id } = mirror;
 
 			const webhook = generateWebhook(webhook_url);
 
-			const data = {
-				webhook,
-				allowed_senders,
-				name,
-				remove_discord_links,
-				allowed_words,
-			};
+			mirror.webhook = webhook;
 
-			mirrorObj[channel_id] = data;
+			mirrorObj[channel_id] = mirror;
 		}
 
 		return mirrorObj;
@@ -67,16 +56,24 @@ module.exports = class MirrorClient extends Client {
 
 			await verifyMessage(data, message);
 
-			const { webhook, name, remove_discord_links } = data;
+			const {
+				webhook,
+				name,
+				remove_everyone_ping,
+				remove_discord_links,
+				custom_names,
+			} = data;
 
 			addReplyIfExists(message);
 
 			addGuildName(name, message);
 			removeInviteLinks(remove_discord_links, message);
+			removeEveryonePing(remove_everyone_ping, message);
+			removeChannels(custom_names, message);
 
 			console.log(message.content);
 
-			const m = await sendWebhook(message, webhook);
+			const m = await sendWebhook(message, webhook, customNames);
 			messageMap.addMessage(message.id, m);
 		} catch (error) {
 			if (error.isOperational) return;

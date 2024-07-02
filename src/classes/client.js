@@ -74,7 +74,7 @@ module.exports = class MirrorClient extends Client {
 
 			console.log(message.content);
 
-			const m = await sendWebhook(message, webhook, customNames);
+			const m = await sendWebhook(message, webhook, custom_names);
 			messageMap.addMessage(message.id, m);
 		} catch (error) {
 			if (error.isOperational) return;

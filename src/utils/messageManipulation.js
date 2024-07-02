@@ -25,7 +25,7 @@ exports.removeEveryonePing = (remove_everyone_ping, message) => {
 };
 
 exports.removeChannels = (remove_channels, message) => {
-	if (!removeChannels) return;
+	if (!remove_channels) return;
 
 	message.mentions.channels.forEach(
 		(c) => (message.content = message.content.replaceAll(`<#${c.id}>`, ""))

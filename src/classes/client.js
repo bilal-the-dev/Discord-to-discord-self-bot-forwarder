@@ -62,6 +62,7 @@ module.exports = class MirrorClient extends Client {
 				remove_everyone_ping,
 				remove_discord_links,
 				custom_names,
+				remove_channels,
 			} = data;
 
 			addReplyIfExists(message);
@@ -69,7 +70,7 @@ module.exports = class MirrorClient extends Client {
 			addGuildName(name, message);
 			removeInviteLinks(remove_discord_links, message);
 			removeEveryonePing(remove_everyone_ping, message);
-			removeChannels(custom_names, message);
+			removeChannels(remove_channels, message);
 
 			console.log(message.content);
 

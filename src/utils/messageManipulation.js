@@ -16,16 +16,16 @@ exports.removeInviteLinks = (remove_discord_links, message) => {
 exports.removeEveryonePing = (remove_everyone_ping, message) => {
 	if (!remove_everyone_ping) return;
 
-	console.log(message.mentions.roles);
+	// console.log(message.mentions.roles);
 
-	const everyoneRole = message.mentions.roles.find(
-		(r) => r.name === "everyone"
-	);
+	// const everyoneRole = message.mentions.roles.find(
+	// 	(r) => r.name === "everyone"
+	// );
 
-	console.log(everyoneRole);
+	// console.log(everyoneRole);
 
-	if (!everyoneRole) return;
-	message.content = message.content.replaceAll(`<@&${everyoneRole.id}>`, "");
+	// if (!everyoneRole) return;
+	message.content = message.content.replaceAll(`@everyone`, "");
 };
 
 exports.removeChannels = (remove_channels, message) => {

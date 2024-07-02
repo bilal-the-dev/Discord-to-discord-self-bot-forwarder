@@ -112,9 +112,4 @@ npm start
 
 ```
 
-### Explanation:
-
-- **Features Section**: Lists the new functionalities (`remove_discord_links`, `allowed_senders`, `name`) along with the existing features.
-- **Setup Section**: Provides an example configuration (`config.json`) demonstrating how to set up mirrors with the new features.
-- **Important Notes**: Reminds users about the risks associated with using a self-bot and emphasizes the importance of maintaining privacy of webhook URLs.
 ```

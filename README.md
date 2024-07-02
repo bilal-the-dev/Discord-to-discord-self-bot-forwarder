@@ -109,7 +109,3 @@ npm start
 - This script uses a self-bot, which is against Discord's Terms of Service. Use it at your own risk.
 - Ensure the account has read message permissions in the source channel.
 - The webhook URL should be kept private to prevent misuse.
-
-```
-
-```

@@ -11,7 +11,10 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Removes Discord invite links if configured (`remove_discord_links`).
 - Only allows messages from specified senders (`allowed_senders`).
 - Only allows messages containing specific words (`allowed_words`).
-- Adds a custom name prefix to messages (`name`).
+- Adds a header to the top of each message (`name`).
+- Remove everyone ping from message (`remove_everyone_ping`)
+- Remove `#Unknown` from the messages (`remove_channels`)
+- Add custom names for senders (`custom_names`)
 
 ## Prerequisites
 
@@ -72,13 +75,23 @@ Create or edit the `config.json` file with the following structure:
 }
 ```
 
-- `name` (optional): Adds a custom name prefix to messages from this mirror.
+- `name` (optional): Adds a header to messages for this mirror.
 - `_comment`: to set some notes
 - `channel_id`: The ID of the source channel in your Discord server.
 - `webhook_url`: The webhook URL for the destination channel.
 - `allowed_senders` (optional): Array of Discord user IDs allowed to send messages through the self-bot.
 - `allowed_words` (optional): Array of words allow messages to go through the self-bot.
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.
+- `remove_everyone_ping` (optional): Set to `true` to remove everyone ping from messages.
+- `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknowm. Set this to `true` to remove them.
+- `custom_names` (optional): Lets say, John and Abraham are sending message on source. While you have set webhook name to `Forwarder` but you wanna distinguish on your server between John and Abraham. Set this property as object below.
+
+```json
+"custom_names":{
+	"JOHN_DISCORD_ID":"John Announces",
+	"ABRAHAM_DISCORD_ID":"Abraham Signals"
+}
+```
 
 ### 5. Run the bot
 

@@ -39,10 +39,10 @@ npm install
 
 ### 3. Configure the bot
 
-Create a `.env` file in the root directory of the project and add your Discord bot token.
+Create a `.env` file in the root directory of the project and add your Discord user token.
 
 ```env
-TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
+TOKEN=YOUR_USER_TOKEN_HERE
 ```
 
 ### 4. Edit the configuration file

@@ -53,8 +53,10 @@ module.exports = class MirrorClient extends Client {
 			const { channelId } = message;
 
 			const data = this.mirrors[channelId];
+			console.log(message.content);
 
 			await verifyMessage(data, message);
+			console.log(message.content);
 
 			const {
 				name,

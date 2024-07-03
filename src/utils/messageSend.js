@@ -1,7 +1,7 @@
 const sendWebhook = async (message, data) => {
 	const {
 		content,
-		author: { id, username, avatarURL },
+		author: { id, username, displayAvatarURL },
 		attachments,
 		embeds,
 	} = message;

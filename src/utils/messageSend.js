@@ -1,7 +1,8 @@
 const sendWebhook = async (message, data) => {
 	const {
 		content,
-		author: { id, username, displayAvatarURL },
+		author: { id, username },
+		author,
 		attachments,
 		embeds,
 	} = message;
@@ -21,7 +22,7 @@ const sendWebhook = async (message, data) => {
 
 	if (use_user_profile) {
 		reply.username = username;
-		reply.avatarURL = displayAvatarURL();
+		reply.avatarURL = author.displayAvatarURL();
 	}
 
 	return await webhook.send(reply);

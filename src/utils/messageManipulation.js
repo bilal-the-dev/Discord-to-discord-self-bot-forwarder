@@ -27,6 +27,37 @@ exports.removeChannels = (remove_channels, message) => {
 	);
 };
 
+exports.replaceChannelMentions = (remove_channels, message) => {
+	if (!remove_channels) return;
+
+	const { content } = message;
+	const discordLinkPattern =
+		/https:\/\/discord\.com\/channels\/\d+\/\d+(?=\s|$)/g;
+
+	// Use match method to find all matching links
+	const matches = content.match(discordLinkPattern);
+
+	// Create a Set to store unique links
+	const uniqueLinks = new Set(matches);
+
+	// Convert the Set back to an array
+	const arr = Array.from(uniqueLinks);
+
+	for (const channelMention of arr) {
+		const exactChannelMentionPattern = new RegExp(
+			`(${channelMention})(?=\\s|$)`,
+			"g"
+		);
+
+		message.content = message.content.replaceAll(
+			exactChannelMentionPattern,
+			``
+		);
+	}
+
+	nativeChannelMentionReplace(message);
+};
+
 exports.addReplyIfExists = async (message) => {
 	if (!message.reference) return;
 
@@ -43,6 +74,14 @@ exports.addReplyIfExists = async (message) => {
 	message.content = `${url}\n${content}`;
 };
 
+function nativeChannelMentionReplace(message) {
+	const { channels } = message.mentions;
+	if (channels.size === 0) return;
+
+	channels.forEach((channel) => {
+		message.content = message.content.replaceAll(`<#${channel.id}>`, ``);
+	});
+}
 // const filterWordsRegex = new RegExp(
 // 	`\\b(${Object.keys(filterWords).join("|")})\\b`,
 // 	"gi"

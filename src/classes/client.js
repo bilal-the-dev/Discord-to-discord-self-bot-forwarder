@@ -57,11 +57,9 @@ module.exports = class MirrorClient extends Client {
 			await verifyMessage(data, message);
 
 			const {
-				webhook,
 				name,
 				remove_everyone_ping,
 				remove_discord_links,
-				custom_names,
 				remove_channels,
 			} = data;
 
@@ -74,7 +72,7 @@ module.exports = class MirrorClient extends Client {
 
 			console.log(message.content);
 
-			const m = await sendWebhook(message, webhook, custom_names);
+			const m = await sendWebhook(message, data);
 			messageMap.addMessage(message.id, m);
 		} catch (error) {
 			if (error.isOperational) return;

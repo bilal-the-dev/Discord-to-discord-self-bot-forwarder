@@ -8,6 +8,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Forward replies aswell, target source has replied message. the webhook points to replied message on source.
 - Uses webhooks for forwarding messages.
 - Does not require admin privileges in the source server.
+- Can use the name and picture of sender instead of default webhook profile (`use_user_profile`)
 - Removes Discord invite links if configured (`remove_discord_links`).
 - Only allows messages from specified senders (`allowed_senders`).
 - Only allows messages containing specific words (`allowed_words`).
@@ -59,6 +60,7 @@ Create or edit the `config.json` file with the following structure:
 			"_comment": "MAIN CHANNEL",
 			"channel_id": "1170066899934130197",
 			"webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
+			"use_user_profile": true,
 			"allowed_senders": ["1234567788", "0987654321"],
 			"allowed_words": ["looking for entry", "silver gold"],
 			"remove_discord_links": true
@@ -84,6 +86,7 @@ Create or edit the `config.json` file with the following structure:
 - `_comment`: to set some notes
 - `channel_id`: The ID of the source channel in your Discord server.
 - `webhook_url`: The webhook URL for the destination channel.
+- `use_user_profile`: use the sender picture and name instead of webhook default picture/name
 - `allowed_senders` (optional): Array of Discord user IDs allowed to send messages through the self-bot.
 - `allowed_words` (optional): Array of words allow messages to go through the self-bot.
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.

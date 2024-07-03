@@ -1,5 +1,11 @@
-const sendWebhook = async (message, webhook, custom_names) => {
-	const { content, author, attachments, embeds } = message;
+const sendWebhook = async (message, data) => {
+	const {
+		content,
+		author: { id, username, avatarURL },
+		attachments,
+		embeds,
+	} = message;
+	const { webhook, custom_names, use_user_profile } = data;
 
 	const reply = {
 		content: content || null,
@@ -11,8 +17,12 @@ const sendWebhook = async (message, webhook, custom_names) => {
 		embeds: embeds,
 	};
 
-	if (custom_names && custom_names[author.id])
-		reply.username = custom_names[author.id];
+	if (custom_names && custom_names[id]) reply.username = custom_names[id];
+
+	if (use_user_profile) {
+		reply.username = username;
+		reply.avatarURL = displayAvatarURL();
+	}
 
 	return await webhook.send(reply);
 };

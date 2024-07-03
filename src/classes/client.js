@@ -10,7 +10,7 @@ const {
 	removeInviteLinks,
 	addReplyIfExists,
 	removeEveryonePing,
-	removeChannels,
+	removeChannelMentions,
 } = require("../utils/messageManipulation");
 const messageMap = require("../cache/messageMap");
 
@@ -70,7 +70,7 @@ module.exports = class MirrorClient extends Client {
 			addGuildName(name, message);
 			removeInviteLinks(remove_discord_links, message);
 			removeEveryonePing(remove_everyone_ping, message);
-			removeChannels(remove_channels, message);
+			removeChannelMentions(remove_channels, message);
 
 			console.log(message.content);
 

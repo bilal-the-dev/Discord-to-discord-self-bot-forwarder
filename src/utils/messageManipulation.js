@@ -27,7 +27,7 @@ exports.removeChannels = (remove_channels, message) => {
 	);
 };
 
-exports.replaceChannelMentions = (remove_channels, message) => {
+exports.removeChannelMentions = (remove_channels, message) => {
 	if (!remove_channels) return;
 
 	const { content } = message;

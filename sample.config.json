@@ -1,22 +1,23 @@
 {
-	"status": "invisible",
-	"SOURCE_GUILD_ID": "1247958702628278332",
+  "status": "invisible",
+  "SOURCE_GUILD_ID": "1247958702628278332",
 
-	"mirrors": [
-		{
-			"_comment": "Balanced (info-main channel)",
-			"name": "News",
-			"channel_id": "1170066899934130197",
-			"webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
-			"use_user_profile": true,
-			"allowed_words": ["stop", "nepotism"],
-			"allowed_senders": ["1234567788", "0987654321"],
-			"remove_discord_links": true,
-			"remove_everyone_ping": true,
-			"remove_channels": true,
-			"custom_names": {
-				"620547628857425920": "Abraham Signals"
-			}
-		}
-	]
+  "mirrors": [
+    {
+      "_comment": "Balanced (info-main channel)",
+      "name": "News",
+      "channel_id": "1170066899934130197",
+      "webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
+      "use_user_profile": true,
+      "blocked_words": ["nephra", "kidney"],
+      "allowed_words": ["stop", "nepotism"],
+      "allowed_senders": ["1234567788", "0987654321"],
+      "remove_discord_links": true,
+      "remove_everyone_ping": true,
+      "remove_channels": true,
+      "custom_names": {
+        "620547628857425920": "Abraham Signals"
+      }
+    }
+  ]
 }

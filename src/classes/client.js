@@ -6,79 +6,78 @@ const { mirrors, status } = require("../../config.json");
 const { verifyMessage } = require("../utils/messageVerification");
 const { sendWebhook } = require("../utils/messageSend");
 const {
-	addGuildName,
-	removeInviteLinks,
-	addReplyIfExists,
-	removeEveryonePing,
-	removeChannelMentions,
+  addGuildName,
+  removeInviteLinks,
+  addReplyIfExists,
+  removeEveryonePing,
+  removeChannelMentions,
 } = require("../utils/messageManipulation");
 const messageMap = require("../cache/messageMap");
+const { useChatGptToConvertMessage } = require("../utils/openai");
 
 module.exports = class MirrorClient extends Client {
-	constructor(options) {
-		super(options);
-		this.mirrors = this.loadMirrors();
-		this.bindEvents();
-	}
+  constructor(options) {
+    super(options);
+    this.mirrors = this.loadMirrors();
+    this.bindEvents();
+  }
 
-	loadMirrors() {
-		const mirrorObj = {};
+  loadMirrors() {
+    const mirrorObj = {};
 
-		for (const mirror of mirrors) {
-			const { webhook_url, channel_id } = mirror;
+    for (const mirror of mirrors) {
+      const { webhook_url, channel_id } = mirror;
 
-			const webhook = generateWebhook(webhook_url);
+      const webhook = generateWebhook(webhook_url);
 
-			mirror.webhook = webhook;
+      mirror.webhook = webhook;
 
-			mirrorObj[channel_id] = mirror;
-		}
+      mirrorObj[channel_id] = mirror;
+    }
 
-		return mirrorObj;
-	}
+    return mirrorObj;
+  }
 
-	bindEvents() {
-		this.on("ready", this.onReady);
-		this.on("messageCreate", this.onMessage);
-	}
+  bindEvents() {
+    this.on("ready", this.onReady);
+    this.on("messageCreate", this.onMessage);
+  }
 
-	async onReady() {
-		console.log(`${this.user.tag} is now mirroring >:)`);
+  async onReady() {
+    console.log(`${this.user.tag} is now mirroring >:)`);
 
-		this.user.setStatus(status);
-	}
+    this.user.setStatus(status);
+  }
 
-	async onMessage(message) {
-		try {
-			const { channelId } = message;
+  async onMessage(message) {
+    try {
+      const { channelId } = message;
 
-			const data = this.mirrors[channelId];
-			console.log(message.content);
+      const data = this.mirrors[channelId];
 
-			await verifyMessage(data, message);
-			console.log(message.content);
+      await verifyMessage(data, message);
 
-			const {
-				name,
-				remove_everyone_ping,
-				remove_discord_links,
-				remove_channels,
-			} = data;
+      const {
+        name,
+        remove_everyone_ping,
+        remove_discord_links,
+        remove_channels,
+      } = data;
 
-			addReplyIfExists(message);
+      addReplyIfExists(message);
 
-			addGuildName(name, message);
-			removeInviteLinks(remove_discord_links, message);
-			removeEveryonePing(remove_everyone_ping, message);
-			removeChannelMentions(remove_channels, message);
+      addGuildName(name, message);
+      removeInviteLinks(remove_discord_links, message);
+      removeEveryonePing(remove_everyone_ping, message);
+      removeChannelMentions(remove_channels, message);
 
-			console.log(message.content);
+      message.content = await useChatGptToConvertMessage(data, message);
 
-			const m = await sendWebhook(message, data);
-			messageMap.addMessage(message.id, m);
-		} catch (error) {
-			if (error.isOperational) return;
-			console.log(error);
-		}
-	}
+      const m = await sendWebhook(message, data);
+      messageMap.addMessage(message.id, m);
+    } catch (error) {
+      if (error.isOperational) return;
+      console.log(error);
+    }
+  }
 };

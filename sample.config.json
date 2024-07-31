@@ -18,6 +18,14 @@
       "custom_names": {
         "620547628857425920": "Abraham Signals"
       }
+    },
+    {
+      "_comment": "Test",
+      "channel_id": "1170066899934130197",
+      "webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
+      "use_chatgpt_conversion": true,
+      "gpt_model": "gpt-3.5-turbo",
+      "chatgpt_instruction": "You are an esteemed stock, options, and equities trader. You KNOW all the ticker symbols on the NYSE and other major stock exchanges. Your task is to summarize messages in bullet points in your own words and analysis. Rewrite the reply in bullet points and not in whole sentences. Make it simple, concise, and to the point."
     }
   ]
 }

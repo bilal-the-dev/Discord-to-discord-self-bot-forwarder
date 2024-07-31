@@ -1,6 +1,6 @@
 # Discord to Discord Forwarder using Webhooks (Self-Bot)
 
-This repository contains a Discord self-bot written in Node.js that forwards messages from a source channel to a destination channel using webhooks. The user doesn't need to be an admin in the source server, just a member.
+This repository contains a Discord self-bot written in Node.js that forwards messages from a source channel to a destination channel using webhooks. The user doesn't need to be an admin in the source server, just a member. ChatGpt integration as well, use AI to format and rephrase your messages and many more!
 
 ## Features
 
@@ -9,6 +9,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Uses webhooks for forwarding messages.
 - Does not require admin privileges in the source server.
 - Can use the name and picture of sender instead of default webhook profile (`use_user_profile`)
+- Use chat gpt to rephrase your messages with instructions (`chatgpt_instruction`, `gpt_model`,`chatgpt_instruction`)
 - Removes Discord invite links if configured (`remove_discord_links`).
 - Only allows messages from specified senders (`allowed_senders`).
 - Only allows messages containing specific words (`allowed_words`).
@@ -45,6 +46,7 @@ Create a `.env` file in the root directory of the project and add your Discord u
 
 ```env
 TOKEN=YOUR_USER_TOKEN_HERE
+OPENAI_API_KEY=HERE
 ```
 
 ### 4. Edit the configuration file
@@ -66,7 +68,10 @@ Create or edit the `config.json` file with the following structure:
 
       "allowed_senders": ["1234567788", "0987654321"],
       "allowed_words": ["looking for entry", "silver gold"],
-      "remove_discord_links": true
+      "remove_discord_links": true,
+      "use_chatgpt_conversion": true,
+      "gpt_model": "gpt-3.5-turbo",
+      "chatgpt_instruction": "You are an esteemed stock, options, and equities trader. You KNOW all the ticker symbols on the NYSE and other major stock exchanges. Your task is to summarize messages in bullet points in your own words and analysis. Rewrite the reply in bullet points and not in whole sentences. Make it simple, concise, and to the point."
     },
     {
       "name": "News",
@@ -90,6 +95,9 @@ Create or edit the `config.json` file with the following structure:
 - `channel_id`: The ID of the source channel in your Discord server.
 - `webhook_url`: The webhook URL for the destination channel.
 - `use_user_profile`: use the sender picture and name instead of webhook default picture/name
+- `use_chatgpt_conversion`: use the chat gpt AI to tranform your messages
+- `gpt_model`: which model to use
+- `chatgpt_instruction`: instructions that chat gpt will take and transform messages accordingly
 - `allowed_senders` (optional): Array of Discord user IDs allowed to send messages through the self-bot.
 - `allowed_words` (optional): Array of words allow messages to go through the self-bot.
 - `blocked_words` (optional): Array of words block messages to not go through the self-bot.

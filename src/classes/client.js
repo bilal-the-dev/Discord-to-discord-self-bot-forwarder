@@ -72,9 +72,9 @@ module.exports = class MirrorClient extends Client {
       removeInviteLinks(remove_discord_links, message);
       removeEveryonePing(remove_everyone_ping, message);
       removeChannelMentions(remove_channels, message);
+      console.log(message.content);
       removeRoles(remove_roles, message);
 
-      console.log(message.content);
       message.content = await useChatGptToConvertMessage(data, message);
       console.log(message.content);
 

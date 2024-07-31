@@ -15,6 +15,7 @@
       "remove_discord_links": true,
       "remove_everyone_ping": true,
       "remove_channels": true,
+      "remove_roles": true,
       "custom_names": {
         "620547628857425920": "Abraham Signals"
       }

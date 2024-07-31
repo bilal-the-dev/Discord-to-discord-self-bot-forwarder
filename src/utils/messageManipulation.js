@@ -2,85 +2,95 @@ const messageMap = require("../cache/messageMap");
 const { SOURCE_GUILD_ID } = require("./../../config.json");
 
 exports.addGuildName = (name, message) => {
-	if (name) message.content = `## ${name}:\n${message.content}`;
+  if (name) message.content = `## ${name}:\n${message.content}`;
 };
 
 exports.removeInviteLinks = (remove_discord_links, message) => {
-	if (!remove_discord_links) return;
-	const discordInviteRegex =
-		/https?:\/\/(www\.)?discord(?:app\.com\/invite|\.gg|\.com\/invite)\/[a-zA-Z0-9-]{2,255}/gi;
+  if (!remove_discord_links) return;
+  const discordInviteRegex =
+    /https?:\/\/(www\.)?discord(?:app\.com\/invite|\.gg|\.com\/invite)\/[a-zA-Z0-9-]{2,255}/gi;
 
-	message.content = message.content.replace(discordInviteRegex, "");
+  message.content = message.content.replace(discordInviteRegex, "");
 };
 
 exports.removeEveryonePing = (remove_everyone_ping, message) => {
-	if (!remove_everyone_ping) return;
+  if (!remove_everyone_ping) return;
 
-	message.content = message.content.replaceAll(`@everyone`, "");
+  message.content = message.content.replaceAll(`@everyone`, "");
 };
 
 exports.removeChannels = (remove_channels, message) => {
-	if (!remove_channels) return;
+  if (!remove_channels) return;
 
-	message.mentions.channels.forEach(
-		(c) => (message.content = message.content.replaceAll(`<#${c.id}>`, ""))
-	);
+  message.mentions.channels.forEach(
+    (c) => (message.content = message.content.replaceAll(`<#${c.id}>`, ""))
+  );
+};
+exports.removeRoles = (remove_roles, message) => {
+  if (!remove_roles) return;
+
+  const { roles } = message.mentions;
+  if (roles.size === 0) return;
+
+  roles.forEach(
+    (c) => (message.content = message.content.replaceAll(`<@&${c.id}>`, ""))
+  );
 };
 
 exports.removeChannelMentions = (remove_channels, message) => {
-	if (!remove_channels) return;
+  if (!remove_channels) return;
 
-	const { content } = message;
-	const discordLinkPattern =
-		/https:\/\/discord\.com\/channels\/\d+\/\d+(?=\s|$)/g;
+  const { content } = message;
+  const discordLinkPattern =
+    /https:\/\/discord\.com\/channels\/\d+\/\d+(?=\s|$)/g;
 
-	// Use match method to find all matching links
-	const matches = content.match(discordLinkPattern);
+  // Use match method to find all matching links
+  const matches = content.match(discordLinkPattern);
 
-	// Create a Set to store unique links
-	const uniqueLinks = new Set(matches);
+  // Create a Set to store unique links
+  const uniqueLinks = new Set(matches);
 
-	// Convert the Set back to an array
-	const arr = Array.from(uniqueLinks);
+  // Convert the Set back to an array
+  const arr = Array.from(uniqueLinks);
 
-	for (const channelMention of arr) {
-		const exactChannelMentionPattern = new RegExp(
-			`(${channelMention})(?=\\s|$)`,
-			"g"
-		);
+  for (const channelMention of arr) {
+    const exactChannelMentionPattern = new RegExp(
+      `(${channelMention})(?=\\s|$)`,
+      "g"
+    );
 
-		message.content = message.content.replaceAll(
-			exactChannelMentionPattern,
-			``
-		);
-	}
+    message.content = message.content.replaceAll(
+      exactChannelMentionPattern,
+      ``
+    );
+  }
 
-	nativeChannelMentionReplace(message);
+  nativeChannelMentionReplace(message);
 };
 
 exports.addReplyIfExists = async (message) => {
-	if (!message.reference) return;
+  if (!message.reference) return;
 
-	const { reference, content } = message;
+  const { reference, content } = message;
 
-	const data = messageMap.findMessage(reference.messageId);
+  const data = messageMap.findMessage(reference.messageId);
 
-	if (!data) return;
+  if (!data) return;
 
-	const [destChannelId, destMessageId] = data;
+  const [destChannelId, destMessageId] = data;
 
-	const url = `**[Reply to message](<https://discord.com/channels/${SOURCE_GUILD_ID}/${destChannelId}/${destMessageId}>)**`;
+  const url = `**[Reply to message](<https://discord.com/channels/${SOURCE_GUILD_ID}/${destChannelId}/${destMessageId}>)**`;
 
-	message.content = `${url}\n${content}`;
+  message.content = `${url}\n${content}`;
 };
 
 function nativeChannelMentionReplace(message) {
-	const { channels } = message.mentions;
-	if (channels.size === 0) return;
+  const { channels } = message.mentions;
+  if (channels.size === 0) return;
 
-	channels.forEach((channel) => {
-		message.content = message.content.replaceAll(`<#${channel.id}>`, ``);
-	});
+  channels.forEach((channel) => {
+    message.content = message.content.replaceAll(`<#${channel.id}>`, ``);
+  });
 }
 // const filterWordsRegex = new RegExp(
 // 	`\\b(${Object.keys(filterWords).join("|")})\\b`,

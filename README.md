@@ -17,6 +17,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Adds a header to the top of each message (`name`).
 - Remove everyone ping from message (`remove_everyone_ping`)
 - Remove `#Unknown` from the messages (`remove_channels`)
+- Remove `@Unknown-role` from the messages (`remove_roles`)
 - Add custom names for senders (`custom_names`)
 
 ## Prerequisites
@@ -82,6 +83,7 @@ Create or edit the `config.json` file with the following structure:
       "remove_discord_links": true,
       "remove_everyone_ping": true,
       "remove_channels": true,
+      "remove_roles": true,
       "custom_names": {
         "620547628857425920": "Abraham Signals"
       }
@@ -103,7 +105,8 @@ Create or edit the `config.json` file with the following structure:
 - `blocked_words` (optional): Array of words block messages to not go through the self-bot.
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.
 - `remove_everyone_ping` (optional): Set to `true` to remove everyone ping from messages.
-- `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknowm. Set this to `true` to remove them.
+- `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknown. Set this to `true` to remove them.
+- `remove_roles` (optional): Sometimes when message contain roles from source, the role appear as #Unknown-role. Set this to `true` to remove them.
 - `custom_names` (optional): Lets say, John and Abraham are sending message on source. While you have set webhook name to `Forwarder` but you wanna distinguish on your server between John and Abraham. Set this property as object below.
 
 ```json

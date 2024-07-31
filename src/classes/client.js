@@ -71,7 +71,9 @@ module.exports = class MirrorClient extends Client {
       removeEveryonePing(remove_everyone_ping, message);
       removeChannelMentions(remove_channels, message);
 
+      console.log(message.content);
       message.content = await useChatGptToConvertMessage(data, message);
+      console.log(message.content);
 
       const m = await sendWebhook(message, data);
       messageMap.addMessage(message.id, m);

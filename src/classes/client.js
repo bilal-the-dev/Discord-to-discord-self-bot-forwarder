@@ -68,7 +68,6 @@ module.exports = class MirrorClient extends Client {
 
       addReplyIfExists(message);
 
-      addGuildName(name, message);
       removeInviteLinks(remove_discord_links, message);
       removeEveryonePing(remove_everyone_ping, message);
       removeChannelMentions(remove_channels, message);
@@ -78,6 +77,7 @@ module.exports = class MirrorClient extends Client {
       message.content = await useChatGptToConvertMessage(data, message);
       console.log(message.content);
 
+      addGuildName(name, message);
       const m = await sendWebhook(message, data);
       messageMap.addMessage(message.id, m);
     } catch (error) {

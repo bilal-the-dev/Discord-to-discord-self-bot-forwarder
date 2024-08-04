@@ -37,6 +37,17 @@ exports.removeRoles = (remove_roles, message) => {
   );
 };
 
+exports.removeUnknownUsers = (remove_unknown_users, message) => {
+  if (!remove_unknown_users) return;
+
+  const { users } = message.mentions;
+  if (users.size === 0) return;
+
+  users.forEach(
+    (c) => (message.content = message.content.replaceAll(`<@${c.id}>`, ""))
+  );
+};
+
 exports.removeChannelMentions = (remove_channels, message) => {
   if (!remove_channels) return;
 

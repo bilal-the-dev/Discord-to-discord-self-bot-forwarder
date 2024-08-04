@@ -16,6 +16,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Block messages containing specific words (`blocked_words`).
 - Adds a header to the top of each message (`name`).
 - Remove everyone ping from message (`remove_everyone_ping`)
+- Remove `@Unknown-user` from the messages (`remove_unknown_users`)
 - Remove `#Unknown` from the messages (`remove_channels`)
 - Remove `@Unknown-role` from the messages (`remove_roles`)
 - Add custom names for senders (`custom_names`)
@@ -82,6 +83,7 @@ Create or edit the `config.json` file with the following structure:
       "allowed_senders": ["1234567788", "0987654321"],
       "remove_discord_links": true,
       "remove_everyone_ping": true,
+      "remove_unknown_users": true,
       "remove_channels": true,
       "remove_roles": true,
       "custom_names": {
@@ -106,6 +108,7 @@ Create or edit the `config.json` file with the following structure:
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.
 - `remove_everyone_ping` (optional): Set to `true` to remove everyone ping from messages.
 - `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknown. Set this to `true` to remove them.
+- `remove_unknown_users` (optional): Sometimes when message mentions users on source, the member appear as #Unknown. Set this to `true` to remove them.
 - `remove_roles` (optional): Sometimes when message contain roles from source, the role appear as #Unknown-role. Set this to `true` to remove them.
 - `custom_names` (optional): Lets say, John and Abraham are sending message on source. While you have set webhook name to `Forwarder` but you wanna distinguish on your server between John and Abraham. Set this property as object below.
 

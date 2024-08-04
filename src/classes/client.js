@@ -12,6 +12,7 @@ const {
   removeEveryonePing,
   removeChannelMentions,
   removeRoles,
+  removeUnknownUsers,
 } = require("../utils/messageManipulation");
 const messageMap = require("../cache/messageMap");
 const { useChatGptToConvertMessage } = require("../utils/openai");
@@ -64,6 +65,7 @@ module.exports = class MirrorClient extends Client {
         remove_discord_links,
         remove_channels,
         remove_roles,
+        remove_unknown_users,
       } = data;
 
       addReplyIfExists(message);
@@ -73,6 +75,7 @@ module.exports = class MirrorClient extends Client {
       removeChannelMentions(remove_channels, message);
       console.log(message.content);
       removeRoles(remove_roles, message);
+      removeUnknownUsers(remove_unknown_users, message);
 
       message.content = await useChatGptToConvertMessage(data, message);
       console.log(message.content);

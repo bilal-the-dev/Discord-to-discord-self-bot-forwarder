@@ -5,7 +5,7 @@ const client = new OpenAI({
 });
 
 async function useChatGptToConvertMessage(webhook, message) {
-  if (!webhook.use_chatgpt_conversion) return;
+  if (!webhook.use_chatgpt_conversion) return message.content;
 
   const chatCompletion = await client.chat.completions.create({
     model: webhook.gpt_model,

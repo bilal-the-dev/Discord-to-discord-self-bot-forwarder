@@ -1,7 +1,7 @@
 const { OpenAI } = require("openai");
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY ?? 'No chatgpt api key provided',
 });
 
 async function useChatGptToConvertMessage(webhook, message) {

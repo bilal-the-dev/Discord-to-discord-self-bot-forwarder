@@ -13,6 +13,7 @@ const {
   removeChannelMentions,
   removeRoles,
   removeUnknownUsers,
+  removeWebLinks,
 } = require("../utils/messageManipulation");
 const messageMap = require("../cache/messageMap");
 const { useChatGptToConvertMessage } = require("../utils/openai");
@@ -57,6 +58,7 @@ module.exports = class MirrorClient extends Client {
 
       const data = this.mirrors[channelId];
 
+      removeWebLinks(data?.remove_web_links, message);
       await verifyMessage(data, message);
 
       const {

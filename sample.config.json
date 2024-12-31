@@ -10,6 +10,7 @@
       "webhook_url": "https://discord.com/api/webhooks/dummy/dummy",
       "use_user_profile": true,
       "blocked_words": ["nephra", "kidney"],
+      "remove_web_links": true,
       "allowed_words": ["stop", "nepotism"],
       "allowed_senders": ["1234567788", "0987654321"],
       "remove_discord_links": true,

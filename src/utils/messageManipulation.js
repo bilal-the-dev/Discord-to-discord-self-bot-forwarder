@@ -13,6 +13,13 @@ exports.removeInviteLinks = (remove_discord_links, message) => {
   message.content = message.content.replace(discordInviteRegex, "");
 };
 
+exports.removeWebLinks = (remove_web_links, message) => {
+  if (!remove_web_links) return;
+  const webLinkRegex = /(?:https?|ftp):\/\/[\n\S]+/g;
+
+  message.content = message.content.replace(webLinkRegex, "");
+};
+
 exports.removeEveryonePing = (remove_everyone_ping, message) => {
   if (!remove_everyone_ping) return;
 

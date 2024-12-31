@@ -11,6 +11,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Can use the name and picture of sender instead of default webhook profile (`use_user_profile`)
 - Use chat gpt to rephrase your messages with instructions (`chatgpt_instruction`, `gpt_model`,`chatgpt_instruction`)
 - Removes Discord invite links if configured (`remove_discord_links`).
+- Removes every sort of website links (https/http) if configured (`remove_web_links`).
 - Only allows messages from specified senders (`allowed_senders`).
 - Only allows messages containing specific words (`allowed_words`).
 - Block messages containing specific words (`blocked_words`).
@@ -68,6 +69,7 @@ Create or edit the `config.json` file with the following structure:
       "use_user_profile": true,
       "blocked_words": ["nephra", "kidney"],
 
+      "remove_web_links": true,
       "allowed_senders": ["1234567788", "0987654321"],
       "allowed_words": ["looking for entry", "silver gold"],
       "remove_discord_links": true,
@@ -106,6 +108,7 @@ Create or edit the `config.json` file with the following structure:
 - `allowed_words` (optional): Array of words allow messages to go through the self-bot.
 - `blocked_words` (optional): Array of words block messages to not go through the self-bot.
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.
+- `remove_web_links` (optional): Set to `true` to remove every website link before bot checks for blocked, allowed words/users.
 - `remove_everyone_ping` (optional): Set to `true` to remove everyone ping from messages.
 - `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknown. Set this to `true` to remove them.
 - `remove_unknown_users` (optional): Sometimes when message mentions users on source, the member appear as #Unknown. Set this to `true` to remove them.

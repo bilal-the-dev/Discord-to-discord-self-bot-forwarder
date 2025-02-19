@@ -113,6 +113,7 @@ Create or edit the `config.json` file with the following structure:
 - `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknown. Set this to `true` to remove them.
 - `remove_unknown_users` (optional): Sometimes when message mentions users on source, the member appear as #Unknown. Set this to `true` to remove them.
 - `remove_roles` (optional): Sometimes when message contain roles from source, the role appear as #Unknown-role. Set this to `true` to remove them.
+- `remove_embed_title_footer` (optional): Remove title/footer of the embed if any.
 - `custom_names` (optional): Lets say, John and Abraham are sending message on source. While you have set webhook name to `Forwarder` but you wanna distinguish on your server between John and Abraham. Set this property as object below.
 
 ```json

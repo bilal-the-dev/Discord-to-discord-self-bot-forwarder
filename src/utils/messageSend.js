@@ -6,8 +6,13 @@ const sendWebhook = async (message, data) => {
 		attachments,
 		embeds,
 	} = message;
-	const { webhook, custom_names, use_user_profile } = data;
+	const { webhook, custom_names, use_user_profile, remove_embed_title_footer } = data;
 
+	if(remove_embed_title_footer) embeds.forEach(e => {
+		e.data.title = ''
+		e.data.footer = ''
+	});
+	
 	const reply = {
 		content: content || null,
 		files: [...attachments.values()],

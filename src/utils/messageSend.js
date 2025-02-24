@@ -9,8 +9,8 @@ const sendWebhook = async (message, data) => {
 	const { webhook, custom_names, use_user_profile, remove_embed_title_footer } = data;
 
 	if(remove_embed_title_footer) embeds.forEach(e => {
-		e..title && 	(e.title = '')
-		e.footer &&  (e.footer = '')
+		e.title && 	(e.title = '')
+		e.footer &&  (e.footer?.title = '')
 	});
 	
 	const reply = {

@@ -10,7 +10,7 @@ const sendWebhook = async (message, data) => {
 
 	if(remove_embed_title_footer) embeds.forEach(e => {
 		e.title && 	(e.title = '')
-		e.footer &&  (e.footer.title = '')
+		e.footer &&  (e.footer.text = '')
 	});
 	
 	const reply = {

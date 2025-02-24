@@ -75,12 +75,10 @@ module.exports = class MirrorClient extends Client {
       removeInviteLinks(remove_discord_links, message);
       removeEveryonePing(remove_everyone_ping, message);
       removeChannelMentions(remove_channels, message);
-      console.log(message.content);
       removeRoles(remove_roles, message);
       removeUnknownUsers(remove_unknown_users, message);
 
       message.content = await useChatGptToConvertMessage(data, message);
-      console.log(message.content);
 
       addGuildName(name, message);
       const m = await sendWebhook(message, data);

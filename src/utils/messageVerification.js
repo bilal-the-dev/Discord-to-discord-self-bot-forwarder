@@ -52,15 +52,6 @@ const verifyMessage = async (data, message) => {
 
     const startTime = now.hour(forwardAfterHour).minute(0).second(0)
     const endTime = now.hour(forwardBeforeHour).minute(0).second(0)
-
-
-    console.log(now.format());
-    
-    console.log(startTime.format());
-    console.log(endTime.format());
-    console.log(now < startTime );
-    console.log( now > endTime);
-    console.log(now < startTime || now > endTime);
     
     if(now < startTime || now > endTime ) throw new AppError(`Message not within the specified time [${channel.name} (${channel.id})], Skipping!`);
 

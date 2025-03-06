@@ -1,8 +1,10 @@
 {
 	"scripts": {
-		"start": "node src/index.js"
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
 	},
 	"dependencies": {
+		"dayjs": "^1.11.13",
 		"discord.js-selfbot-v13": "^3.1.4",
 		"dotenv": "^16.4.5",
 		"openai": "^4.53.2"

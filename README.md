@@ -8,6 +8,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Forward replies aswell, target source has replied message. the webhook points to replied message on source.
 - Uses webhooks for forwarding messages.
 - Does not require admin privileges in the source server.
+- Forward messages from a specific channel at a specific time in your timezone of choice say [FROM 9AM to 4PM EST time]
 - Can use the name and picture of sender instead of default webhook profile (`use_user_profile`)
 - Use chat gpt to rephrase your messages with instructions (`chatgpt_instruction`, `gpt_model`,`chatgpt_instruction`)
 - Removes Discord invite links if configured (`remove_discord_links`).
@@ -90,6 +91,11 @@ Create or edit the `config.json` file with the following structure:
       "remove_roles": true,
       "custom_names": {
         "620547628857425920": "Abraham Signals"
+      },
+      "forward_at_timezone": {
+        "timezone":"America/New_York",
+        "forwardAfterHour":9,
+        "forwardBeforeHour":16
       }
     }
   ]
@@ -100,6 +106,7 @@ Create or edit the `config.json` file with the following structure:
 - `_comment`: to set some notes
 - `channel_id`: The ID of the source channel in your Discord server.
 - `webhook_url`: The webhook URL for the destination channel.
+- `forward_at_timezone`: Specify to mention the message be forwarded only if time is so and so
 - `use_user_profile`: use the sender picture and name instead of webhook default picture/name
 - `use_chatgpt_conversion`: use the chat gpt AI to tranform your messages
 - `gpt_model`: which model to use

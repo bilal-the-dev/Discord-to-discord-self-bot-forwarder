@@ -24,6 +24,13 @@ exports.removeEveryonePing = (remove_everyone_ping, message) => {
   if (!remove_everyone_ping) return;
 
   message.content = message.content.replaceAll(`@everyone`, "");
+  message.content = message.content.replaceAll(`@here`, "");
+};
+
+exports.removeEmojis = (remove_emojis, message) => {
+  if (!remove_emojis) return;
+
+  message.content = message.content.replace(/[^\x20-\x7E]/g, "");
 };
 
 exports.removeChannels = (remove_channels, message) => {

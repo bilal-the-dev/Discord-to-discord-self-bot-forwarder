@@ -57,10 +57,16 @@ module.exports = class MirrorClient extends Client {
     try {
       const { channelId } = message;
 
+      console.log(
+        `Message received in ${message.channel?.name} (${channelId})`
+      );
+
       const data = this.mirrors[channelId];
 
       removeWebLinks(data?.remove_web_links, message);
       await verifyMessage(data, message);
+
+      console.log("Forwarding");
 
       const {
         name,

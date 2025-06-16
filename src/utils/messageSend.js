@@ -1,3 +1,5 @@
+const { MessageFlags } = require("discord.js-selfbot-v13");
+
 const sendWebhook = async (message, data) => {
   const {
     content,
@@ -12,6 +14,7 @@ const sendWebhook = async (message, data) => {
     use_user_profile,
     remove_embed_title_footer,
     no_media,
+    disable_embed_links
   } = data;
 
   if (remove_embed_title_footer)
@@ -23,6 +26,7 @@ const sendWebhook = async (message, data) => {
   const reply = {
     content: content || null,
     files: !no_media ? [...attachments.values()] : undefined,
+    flags: disable_embed_links ? MessageFlags.FLAGS.SUPPRESS_EMBEDS : undefined,
     // username: webhook.useCustomProfile ? webhook.name : author.username,
     // avatarURL: webhook.useCustomProfile
     // 	? webhook.avatarUrl

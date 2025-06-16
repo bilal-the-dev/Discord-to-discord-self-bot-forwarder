@@ -20,6 +20,7 @@ This repository contains a Discord self-bot written in Node.js that forwards mes
 - Block messages containing specific words (`blocked_words`).
 - Adds a header to the top of each message (`name`).
 - Remove everyone ping from message (`remove_everyone_ping`)
+- Disable embedding of 3rd party links from message (`disable_embed_links`)
 - Remove `@Unknown-user` from the messages (`remove_unknown_users`)
 - Remove `#Unknown` from the messages (`remove_channels`)
 - Remove `@Unknown-role` from the messages (`remove_roles`)
@@ -91,6 +92,7 @@ Create or edit the `config.json` file with the following structure:
       "remove_unknown_users": true,
       "remove_channels": true,
       "remove_roles": true,
+      "disable_embed_links": true,
       "remove_emojis": true,
       "no_media": true,
       "custom_names": {
@@ -123,6 +125,7 @@ Create or edit the `config.json` file with the following structure:
 - `remove_discord_links` (optional): Set to `true` to remove Discord invite links from messages.
 - `remove_web_links` (optional): Set to `true` to remove every website link before bot checks for blocked, allowed words/users.
 - `remove_everyone_ping` (optional): Set to `true` to remove everyone ping from messages.
+- `disable_embed_links` (optional): Set to `true` to remove embed links from messages.
 - `remove_channels` (optional): Sometimes when message contain channel from source, the channel appear as #Unknown. Set this to `true` to remove them.
 - `remove_unknown_users` (optional): Sometimes when message mentions users on source, the member appear as #Unknown. Set this to `true` to remove them.
 - `remove_roles` (optional): Sometimes when message contain roles from source, the role appear as #Unknown-role. Set this to `true` to remove them.

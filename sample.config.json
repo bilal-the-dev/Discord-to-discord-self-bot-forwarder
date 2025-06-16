@@ -31,6 +31,7 @@
       "chatgpt_instruction": "You are an esteemed stock, options, and equities trader. You KNOW all the ticker symbols on the NYSE and other major stock exchanges. Your task is to summarize messages in bullet points in your own words and analysis. Rewrite the reply in bullet points and not in whole sentences. Make it simple, concise, and to the point.",
 
       "remove_emojis": true,
+      "disable_embed_links": true,
       "no_media": true,
       "forward_at_timezone": {
         "timezone": "America/New_York",
